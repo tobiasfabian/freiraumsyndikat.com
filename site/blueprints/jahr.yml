@@ -1,0 +1,10 @@
+title: Jahr
+pages:
+  template: termin
+  num: date
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description

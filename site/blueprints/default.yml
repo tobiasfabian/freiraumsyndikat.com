@@ -1,0 +1,15 @@
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  text:
+    label: Text
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email

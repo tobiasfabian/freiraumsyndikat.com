@@ -1,0 +1,39 @@
+title: Fotos
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  fotos:
+    label: Fotos
+    type:  structure
+    modalsize: large
+    help:  Für den Download werden zwei Foto-Dateien (.jpg) benötigt. Eine große Datei, die heruntergeladen werden kann und eine kleine Version, die als Vorschau auf der Website angezeigt wird. Die kleine Version soll 1888 Pixel breit sein, bzw. 944 Pixel für Hochformat-Fotos. Für eine besser Übersicht, empfiehlt es sich, die kleinere Datei folgendermaßen zu benennen. {dateiname}-web.jpg
+    fields:
+      foto:
+        label: Foto
+        type:  image
+        required: true
+        help:  Dieses Foto soll 1888 Pixel breit sein – Fotos im Hochformat 944 Pixel.
+      download:
+        label: Download
+        type:  image
+        help:  Diese Datei wird als Download angeboten. Es kann beliebig groß sein. Bitte achte darauf, dass beide Dateien das gleiche Foto darstellen. Bleibt dieses Feld leer, wird das Foto nicht als Download angeboten.
+      position:
+        label: Position des Fotos
+        type: radio
+        required: true
+        columns: 3
+        options:
+          links:  links
+          mitte:  mitte
+          rechts: rechts
+      titel:
+        label: Titel
+        type:  text
+      copyright:
+        label: Copyright
+        type:  text
+        placeholder: 2016 Name des Fotografen

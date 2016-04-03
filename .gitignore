@@ -1,0 +1,20 @@
+.DS_Store
+
+# Kirby
+/site/accounts/*
+/site/config/config.freiraumsyndikat.com.php
+/assets/avatars
+/site/cache/*
+/thumbs/*
+
+# Codekit
+/assets/css/.sass-cache
+/.codekit-cache/
+/config.codekit
+
+# Google
+/google528c7c7784687219.html
+/google509e9b611f89e2d8.html
+
+# Composer
+/composer.phar

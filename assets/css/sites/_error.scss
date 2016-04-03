@@ -1,0 +1,16 @@
+.error {
+  margin-top: 4rem;
+  max-width: 38rem;
+  @media (max-width: 62rem) and (min-width: 46rem) {
+    margin-top: 7rem
+  }
+  h2 {
+    margin-bottom: 0.75rem;
+  }
+  p {
+    margin-top: 0;
+  }
+  .klang {
+    opacity: 1;
+  }
+}

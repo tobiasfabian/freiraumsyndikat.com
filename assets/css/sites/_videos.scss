@@ -1,0 +1,26 @@
+.videos {
+}
+
+
+.videos--list {
+  margin: 0 auto;
+  max-width: 59rem;
+  li {
+    margin-bottom: 6rem;
+    height: 33.2rem;
+    @media (max-width: 61rem) {
+      height: calc((100vw - 2rem) * 9 / 16);
+    }
+    @media (max-width: 26rem) {
+      margin-right: -1rem;
+      margin-left: -1rem;
+      height: calc(100vw  * 9 / 16);
+    }
+    iframe {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: $color--black;
+    }
+  }
+}

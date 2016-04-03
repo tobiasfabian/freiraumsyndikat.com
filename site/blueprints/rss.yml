@@ -1,0 +1,12 @@
+title: RSS
+pages: false
+files: false
+deletable: false
+fields:
+  title:
+    name: Title
+    type: text
+  info:
+    name: Info
+    type: info
+    text: Diese Seite ist nötig um den RSS-Feed zu realisiern

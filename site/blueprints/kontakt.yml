@@ -1,0 +1,22 @@
+title: Kontakt
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  text:
+    label: Text
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email
+  impressum:
+    label: Impressum
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email

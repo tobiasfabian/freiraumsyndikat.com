@@ -1,0 +1,32 @@
+title: Termin
+pages: false
+files: false
+fields:
+  date:
+    label: Beginn
+    type:  datetime
+    required: true
+    default: false
+    time:
+      interval: 5
+  title:
+    label: Titel
+    type:  text
+  untertitel:
+    label: Untertitel
+    type:  text
+  veranstaltungsort:
+    label: Veranstaltungsort
+    type:  text
+    required: true
+  stadt:
+    label: Stadt
+    type:  text
+    required: true
+  ticket_link:
+    label: Link um Tickets zu kaufen
+    type:  url
+  facebook_link:
+    label: Link zur Facebook-Veranstaltung
+    type:  url
+    placeholder: https://facebook.com/events/1039391936154205/

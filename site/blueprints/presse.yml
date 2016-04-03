@@ -1,0 +1,12 @@
+title: Presse
+pages:
+  template: presse_artikel
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type:  info
+    text:  Diese Seite wird nie angezeigt. Der Benutzer wird automatisch zur 'Über uns'-Seite weitergeleitet.

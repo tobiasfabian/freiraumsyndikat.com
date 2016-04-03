@@ -1,0 +1,22 @@
+.klang {
+  z-index: -1;
+  position: fixed;
+  width: 8rem;
+  height: 8rem;
+  margin: -4rem 0 0 -4rem;
+  background: center center no-repeat;
+  opacity: 0;
+  pointer-events: none;
+  &-elisabeth-neuser {
+    background-image: url('../images/klang-elisabeth.svg');
+  }
+  &-lukas-dreyer {
+    background-image: url('../images/klang-lukas.svg');
+  }
+  &-markus-fleischer {
+    background-image: url('../images/klang-markus.svg');
+  }
+  &-friederike-vollert {
+    background-image: url('../images/klang-friederike.svg');
+  }
+}

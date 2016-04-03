@@ -1,0 +1,24 @@
+title: Site
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  subtitle:
+    label: Untertitel
+    type:  text
+  meta_description:
+    label: Meta Description
+    type:  text
+  email:
+    label: allgemeine E-Mail-Adresse
+    type:  email
+  facebook_link:
+    label: Link zur Facebook-Seite
+    required: true
+  youtube_link:
+    label: Link zur YouTube-Seite
+    required: true
+  soundcloud_link:
+    label: Link zur Soundcloud-Seite
+    required: true

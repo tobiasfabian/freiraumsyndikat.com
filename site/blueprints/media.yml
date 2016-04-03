@@ -1,0 +1,14 @@
+title: Media
+pages:
+  template:
+    - fotos
+    - hoerproben
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type:  info
+    text:  Diese Seite wird nie angezeigt. Der Benutzer wird automatisch zu den Fotos weitergeleitet.

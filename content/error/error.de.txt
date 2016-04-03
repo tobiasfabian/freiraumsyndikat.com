@@ -1,0 +1,12 @@
+Title: 404 Error
+
+----
+
+Text: 
+
+Die angeforderte Seite kann leider nicht dargestellt werden. Es scheint, Du hast dich verirrt, durch einen veralteten Link oder möglicherweise durch einen Tippfehler.
+
+Vielleicht hilft es, wenn du zur (link: / text: Startseite) zurückkehrst. Wir entschuldigen uns für alle Unannehmlichkeiten.
+
+## Kontakt
+Wenn Du uns kontaktieren möchtest kannst Du gerne eine (email: info@freiraumsyndikat.com text: Mail) schreiben oder unsere (link: https://facebook.com/freiraumsyndikat/ text: Facebook-Seite) besuchen.

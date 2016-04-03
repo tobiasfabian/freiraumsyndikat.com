@@ -1,0 +1,35 @@
+title: Presse Artikel
+pages: false
+files: true
+fields:
+  title:
+    label: Name
+    type:  text
+  meta_description: meta_description
+  autor:
+    label: Autor
+    type:  text
+    width: 1/3
+  zeitung:
+    label: Zeitung
+    type:  text
+    width: 1/3
+  datum:
+    label: Datum
+    type:  date
+    width: 1/3
+  auszug:
+    label: Auszug (Zitat)
+    type:  textarea
+    buttons: false
+  link:
+    label: Link
+    type:  url
+    help:  Wenn diese Feld ausgefüllt ist, wird vom Zitat direkt auf diese URL verlinkt. Der folgende Text wird also komplett ignoriert.
+  text:
+    label: Text
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email

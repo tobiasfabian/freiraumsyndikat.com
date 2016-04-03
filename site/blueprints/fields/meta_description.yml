@@ -1,0 +1,5 @@
+label: Meta Description
+type:  text
+help:  Dieser Text ist wichtig für Suchmaschinen und erscheint außerdem auf Facebook, wenn diese Seite geteilt wird.<br>Der Text sollte zirka 160 Zeichen lang sein.
+validate:
+  max: 380

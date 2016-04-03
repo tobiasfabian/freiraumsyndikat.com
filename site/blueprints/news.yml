@@ -1,0 +1,11 @@
+title: News
+pages:
+  template: news_eintrag
+  num: date
+  sort: flip
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description

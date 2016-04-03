@@ -1,0 +1,120 @@
+.galerie {
+  margin: 0 auto;
+  max-width: 59rem;
+  @media (max-width: 26rem) {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+}
+
+.galerie--foto {
+  position: relative;
+  display: flex;
+  margin-bottom: 6rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  figure {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  picture {
+    margin: 0 auto;
+    max-width: 100%;
+    img {
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 100vh;
+      @media (min-height: 50rem) {
+        max-height: calc(100vh - 7rem);
+      }
+      @media (max-width: 34rem) {
+        max-height: calc(100vh - 4rem);
+      }
+    }
+  }
+  figcaption {
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    @media (max-width: 36rem) {
+      display: block;
+    }
+    p {
+      margin: 1rem 0;
+      max-width: 50%;
+      @media (max-width: 36rem) {
+        max-width: none;
+      }
+    }
+  }
+}
+
+.galerie--foto--info {
+  margin: 1rem 0;
+  max-width: calc(50% - 2rem);
+  font-size: 0.8em;
+  text-align: right;
+  @media (max-width: 36rem) {
+    max-width: none;
+    text-align: left;
+  }
+}
+
+
+.galerie--foto-links,
+.galerie--foto-rechts {
+  figure {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    @media (max-width: 36rem) {
+      display: block;
+    }
+  }
+  picture {
+    margin: 0;
+    max-width: 50%;
+    @media (max-width: 36rem) {
+      max-width: 100%;
+    }
+  }
+  figcaption {
+    display: block;
+    margin: 1rem 2rem;
+    width: calc(50% - 4rem);
+    padding: 0;
+    @media (max-width: 36rem) {
+      margin: 0;
+      padding: 0 1rem;
+      width: auto;
+    }
+  }
+  figcaption p,
+  .galerie--foto--info {
+    max-width: none;
+  }
+  .galerie--foto--info {
+    margin-top: 1rem;
+  }
+}
+
+.galerie--foto-links {
+  .galerie--foto--info {
+    text-align: left;
+  }
+}
+
+.galerie--foto-rechts {
+  text-align: right;
+  @media (max-width: 36rem) {
+    text-align: left;
+  }
+  figure {
+    justify-content: flex-end;
+  }
+  picture {
+    order: 2;
+  }
+}

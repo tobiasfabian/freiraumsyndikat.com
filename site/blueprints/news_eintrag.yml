@@ -1,0 +1,32 @@
+title: News Eintrag
+pages: false
+files:
+  type: image
+  fields:
+    alt:
+      label: Alternativer Text
+      type:  text
+      required: true
+      help:  Kurzer Text, der das Foto beschreibt. Wichtig für Screenreader (Benutzer mit Sehschwäche) und Suchmaschinen. Dieser Text ist nicht sichtbar.
+    caption:
+      label: Bildbeschreibung
+      type:  text
+      help:  Dieser Text erscheint unter dem Foto. Er kann genutzt werden um zum Beispiel den Fotografen zu nennen oder das Foto näher zu beschreibe.
+fields:
+  title:
+    label: Title
+    type:  text
+  date:
+    label: Datum
+    type:  datetime
+    default: now
+    time:
+      interval: 1
+  text:
+    label: Text
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email
+    help:  Fotos sollten mindestens 1216 Pixel groß sein. Größere Fotos werden automatisch auf diese Größe verkleinert.<br>Bitte für jedes Foto eine 'Alternativen Text' eingeben (Rechts auf Foto klicken und Textfeld ausfüllen)

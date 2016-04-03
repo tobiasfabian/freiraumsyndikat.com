@@ -1,0 +1,29 @@
+.presse_auszug {
+  margin: 4rem auto;
+  max-width: 38rem;
+  font-weight: 700;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  a {
+    color: inherit;
+    &:focus, &:hover {
+      text-decoration: none;
+      p {
+        text-decoration: underline;
+      }
+    }
+  }
+  p {
+    font-size: 1.5rem;
+    &::before {
+      content: '»';
+    }
+    &::after {
+      content: '«';
+    }
+  }
+  .info {
+    font-size: 0.8em;
+  }
+}

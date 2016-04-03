@@ -1,0 +1,32 @@
+Title: Kontakt
+
+----
+
+Text: 
+
+## Booking
+(email: booking@freiraumsyndikat.com)
+
+## Kontakt
+(email: info@freiraumsyndikat.com)
+
+## (facebook_icon: true)
+(link: //facebook.com/freiraumsyndikat text: facebook.com/freiraumsyndikat popup: true)
+
+----
+
+Impressum: 
+
+#### Verantwortlich für den Inhalt
+Lukas Dreyer
+Davidstr. 6
+04109 Leipzig
+
+**Webdesign** (link: https://tobiaswolf.me text: Tobias Wolf popup: true) / **Fotos** Ronny Ristok / **Video** Florian Froger / **Schrift** (link: https://www.behance.net/gallery/29252427/Atzur-free-typefamily text: Atzur popup: true) von Oscar Cobo / **Content Managment System** (link: https://getkirby.com text: Kirby popup: true)
+
+#### Datenschutzhinweise
+Diese Website verwendet den Webanalysedienst (link: https://piwik.org text: Piwik popup: true). Piwik verwendet Cookies, die eine Analyse der Benutzung der Webseite ermöglicht. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen an unseren Server in Deutschland übertragen und zur Nutzungsanalyse gespeichert. Die IP-Adresse wird bei diesem Vorgang umge­hend anony­mi­siert. Die Analysedaten dieser Webseite werden selbstverständlich nicht an Dritte weitergegeben. Das Tracking von Analysediensten und die Verwendung von Cookies kann durch eine entsprechende Einstellung des Browsers verhindert werden.
+
+----
+
+Meta-description: Kontakt & Impressum von Syndikat Freiraum – Baroque Jazz Chamber Group

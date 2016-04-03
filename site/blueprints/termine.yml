@@ -1,0 +1,12 @@
+title: Termine
+pages:
+  template: jahr
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type:  info
+    text:  Diese Seite wird nie angezeigt. Der Benutzer wird automatisch auf das aktuelle Jahr weitergeleitet.

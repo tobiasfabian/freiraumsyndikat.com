@@ -1,0 +1,83 @@
+.pagination {
+  position: relative;
+  display: flex;
+  margin: 4rem auto 0;
+  max-width: 38rem;
+}
+
+
+.pagination--previous,
+.pagination--next {
+  position: relative;
+  width: calc(50% - 2rem);
+  max-width: 100%;
+  flex-grow: 1;
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+  @media (max-width: 46rem) {
+    padding: 0 2rem;
+  }
+  @media (max-width: 24rem) {
+    width: 100%;
+  }
+}
+
+
+.pagination--previous {
+  align-self: flex-end;
+  text-align: right;
+  padding-left: 3em;
+  &::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: '→';
+    display: none;
+    transform: translateX(1.3rem);
+  }
+  &:focus, &:hover {
+    &::after {
+      display: block;
+    }
+  }
+  @media (max-width: 46rem) {
+    padding-right: 1.2rem;
+    &::after {
+      right: 1.2rem;
+    }
+  }
+  @media (max-width: 34rem) {
+    &::after {
+      display: block;
+    }
+  }
+}
+
+
+.pagination--next {
+  align-self: flex-start;
+  padding-right: 3em;
+  &::before {
+    position: absolute;
+    content: '←';
+    display: none;
+    transform: translateX(-1.3rem);
+  }
+  &:focus, &:hover {
+    &::before {
+      display: block;
+    }
+  }
+  @media (max-width: 46rem) {
+    padding-left: 1.2rem;
+    &::after {
+      left: 1.2rem;
+    }
+  }
+  @media (max-width: 34rem) {
+    &::before {
+      display: block;
+    }
+  }
+}

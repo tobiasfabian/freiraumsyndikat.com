@@ -1,0 +1,22 @@
+title: Startseite
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  youtube_id:
+    label: YouTube Id
+    placeholder: VPPcY1pKWYI
+    requried: true
+    validate:
+      min: 11
+      max: 11
+      - alphanum
+    help: >
+      youtu.be/<strong>VPPcY1pKWYI</strong><br>
+      www.youtube.com/watch?v=<strong>VPPcY1pKWYI</strong>
+  button_text:
+    label: Button Text
+    type:  text

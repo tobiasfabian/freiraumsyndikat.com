@@ -1,0 +1,58 @@
+.kalender {
+  max-width: 37rem;
+  padding-left: 15rem;
+  @media (max-width: 52rem) {
+    padding-right: 3rem;
+    padding-left: 11rem;
+  }
+  @media (max-width: 44rem) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  @media (max-width: 24rem) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+.kalender--eintrag {
+  margin: 2rem 0;
+  display: flex;
+}
+
+
+.kalender--eintrag--datum {
+  margin-top: -0.12rem;
+  flex: 0 0 9rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  @media (max-width: 52rem) {
+    flex-basis: 6rem;
+  }
+  @media (max-width: 42rem) {
+    flex-basis: 4rem;
+  }
+  @media (max-width: 22rem) {
+    flex-basis: 3rem;
+  }
+}
+
+
+.kalender--eintrag--text {
+  strong {
+    font-weight: 700;
+  }
+}
+
+
+.kalender--eintrag--text--links {
+  font-size: 0.8em;
+  li {
+    display: inline;
+    text-transform: lowercase;
+    &:not(:last-of-type)::after {
+      content: ' • ';
+    }
+  }
+}

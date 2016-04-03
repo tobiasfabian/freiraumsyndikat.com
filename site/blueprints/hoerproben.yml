@@ -1,0 +1,16 @@
+title: Hörproben
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  soundcloud_links:
+    label: Soundcloud Links
+    type:  structure
+    style: tabel
+    fields:
+      link:
+        label: Soundcloud Link
+        type:  url

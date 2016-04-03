@@ -1,0 +1,120 @@
+@import 'includes/variables';
+@import 'includes/reset';
+@import 'includes/animations';
+@import 'includes/fonts';
+
+body {
+  box-sizing: border-box;
+  font: 1.125em/24px 'Atzur', sans-serif;
+  font: 1.125em/1.5rem 'Atzur', sans-serif;
+  letter-spacing: 0.005em;
+  color: $color--black;
+  -webkit-text-size-adjust:none;
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (min-height: 50rem) {
+    padding-top: 7rem; // height of header: 7rem
+  }
+  @media (max-width: 34rem) {
+    padding-top: 2.9rem;
+  }
+}
+
+a {
+  cursor: pointer;
+  color: $color--link;
+  text-decoration: none;
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+}
+h2 {
+  margin: 1.5rem 0;
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  @media (max-width: 28rem) {
+    width: 75%;
+  }
+}
+h3 {
+  margin: 1.5rem 0;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  @media (max-width: 28rem) {
+    width: 75%;
+  }
+}
+h4 {
+  margin: 0;
+  width: 50%;
+  font-weight: 700;
+  @media (max-width: 28rem) {
+    width: 75%;
+  }
+}
+p {
+  margin: 1.5rem 0;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  @media (max-width: 34rem) {
+    hyphens: auto;
+  }
+}
+
+:focus {
+  outline: 0;
+}
+
+img {
+  display: block;
+}
+
+.center {
+  position: relative;
+  margin: 0 auto;
+  width: 60rem;
+  padding-bottom: 6rem;
+  @media (min-width: 74rem) {
+    width: 68rem;
+  }
+  @media (max-width: 62rem) {
+    box-sizing: border-box;
+    padding: 0 1rem 6rem;
+    width: 100%;
+  }
+}
+
+@import 'modules/main_header';
+@import 'modules/subnav';
+@import 'modules/pagenav';
+@import 'modules/seperator';
+@import 'modules/klang';
+@import 'modules/article';
+@import 'modules/presse_auszug';
+@import 'modules/ensemble';
+@import 'modules/mitglied';
+@import 'modules/kalender';
+@import 'modules/galerie';
+@import 'modules/pagination';
+
+@import 'sites/startseite';
+@import 'sites/jahr';
+@import 'sites/news';
+@import 'sites/news--eintrag';
+@import 'sites/artikel--eintrag';
+@import 'sites/fotos';
+@import 'sites/hoerproben';
+@import 'sites/videos';
+@import 'sites/kontakt';
+@import 'sites/error';

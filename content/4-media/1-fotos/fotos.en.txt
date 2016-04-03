@@ -1,0 +1,55 @@
+Title: Photos
+
+----
+
+Fotos: 
+
+- 
+  foto: pressefoto-1-web.jpg
+  position: mitte
+  titel: >
+    Vier Musiker sitzen in einer schönen
+    Kulisse und halten ihre Instrumente in
+    der Hand
+  copyright: 2015 Ronny Ristok
+  download: pressefoto-1.jpg
+- 
+  foto: pressefoto-2-web.jpg
+  position: mitte
+  titel: Musiker vor schwarzem Hintergrund
+  copyright: 2015 Ronny Ristok
+  download: pressefoto-2.jpg
+- 
+  foto: mundauf-web.jpg
+  position: mitte
+  titel: Vier Musiker mit offenem Mund!
+  copyright: 2015 Ronny Ristock
+  download: mundauf.jpg
+- 
+  foto: friederike_vollert-web.jpg
+  position: links
+  titel: Frederike Voller
+  copyright: 2016 Ronny Ristok
+  download: friederike_vollert.jpg
+- 
+  foto: lukas_dreyer-web.jpg
+  position: rechts
+  titel: Lukas Dreyer
+  copyright: 2015 Ronny Ristok
+  download: lukas_dreyer.jpg
+- 
+  foto: markus_fleischer-web.jpg
+  position: links
+  titel: Markus Fleischer
+  copyright: 2015 Ronny Ristok
+  download: markus_fleischer.jpg
+- 
+  foto: elisabeth_neuser-web.jpg
+  position: rechts
+  titel: Elisabeth Neusser
+  copyright: 2015 Ronny Ristok
+  download: elisabeth_neuser.jpg
+
+----
+
+Meta-description: Fotos von Freiraum Syndikat – Baroque Jazz Chamber Group

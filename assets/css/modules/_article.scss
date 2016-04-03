@@ -1,0 +1,36 @@
+.article {
+  margin: 4rem auto;
+  max-width: 38rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  header {
+    position: relative;
+    h1, h2 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
+    a {
+      color: $color--black;
+    }
+  }
+  .info {
+    font-size: 0.8em;
+  }
+  figure {
+    margin: 1rem 0;
+    img {
+      width: 100%;
+    }
+    figcaption {
+      margin-top: 0.5rem;
+      padding: 0 1rem;
+      font-size: 0.8em;
+    }
+  }
+  strong {
+    font-weight: 700;
+  }
+}

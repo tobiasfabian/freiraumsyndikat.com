@@ -1,0 +1,12 @@
+Title: 404 Error
+
+----
+
+Text: 
+
+Unfortunately, the page you’ve requested cannot be displayed. It appears that you've lost your way either through an outdated link or maybe a typo.
+
+Please feel free to return to the (link: /en text: front page). We are very sorry for any inconvenience.
+
+## Contact
+If you want to contact us, feel free to write us a (email: info@freiraumsyndikat.com text: mail) or visit our (link: https://facebook.com/freiraumsyndikat/ text: Facebook page).
