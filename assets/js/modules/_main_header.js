@@ -9,10 +9,10 @@
 
   hamburgerElement.addEventListener('click', function () {
     if (element.classList.contains('active')) {
-      hamburgerElement.setAttribute('aria-label', hamburgerElement.dataset.labelClose);
+      hamburgerElement.setAttribute('aria-label', hamburgerElement.dataset.labelOpen);
       element.classList.remove('active');
     } else {
-      hamburgerElement.setAttribute('aria-label', hamburgerElement.dataset.labelOpen);
+      hamburgerElement.setAttribute('aria-label', hamburgerElement.dataset.labelClose);
       element.classList.add('active');
     }
   });

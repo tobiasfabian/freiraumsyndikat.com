@@ -53,7 +53,7 @@
         ?>
         <picture>
           <source media="(max-width: 380px)" srcset="<?= $foto_url_160 ?> 1x, <?= $foto_url_320 ?> 2x">
-          <img src="<?= $foto_url_320 ?>" srcset="<?= $foto_url_320_2x ?> 2x" alt="<?= $mitglied->name()->html() ?>">
+          <img src="<?= $foto_url_320 ?>" srcset="<?= $foto_url_320_2x ?> 2x" alt="<?= $mitglied->title()->html() ?>">
         </picture>
         <div class="klang klang-<?= $mitglied->uid() ?>"></div>
       </a>

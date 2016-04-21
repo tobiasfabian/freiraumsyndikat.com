@@ -8,26 +8,28 @@
       <span></span>
       <span></span>
     </button>
-    <ul class="main_header--menu">
-      <?php foreach($site->pages()->visible() as $item): ?>
-      <li>
-        <a <?= $item->isOpen() ? 'class="active"' : null ?> href="<?= $item->url() ?>">
-          <?= $item->title() ?>
-        </a>
-      </li>
-      <?php endforeach ?>
-      <li class="main_header--menu--social_media">
-        <a class="social_media_icon" href="<?= $site->facebook_link() ?>" target="_blank">
-          <img src="<?= url('assets/images/icon--facebook.svg') ?>" alt="Facbook Icon">
-        </a>
-        <a class="social_media_icon" href="<?= $site->soundcloud_link() ?>" target="_blank">
-          <img src="<?= url('assets/images/icon--soundcloud.svg') ?>" alt="Soundcloud Icon">
-        </a>
-        <a class="social_media_icon" href="<?= $site->youtube_link() ?>" target="_blank">
-          <img src="<?= url('assets/images/icon--youtube.svg') ?>" alt="YouTube Icon">
-        </a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="main_header--menu">
+        <?php foreach($site->pages()->visible() as $item): ?>
+        <li>
+          <a <?= $item->isOpen() ? 'class="active"' : null ?> href="<?= $item->url() ?>">
+            <?= $item->title() ?>
+          </a>
+        </li>
+        <?php endforeach ?>
+        <li class="main_header--menu--social_media">
+          <a class="social_media_icon" href="<?= $site->facebook_link() ?>" target="_blank">
+            <img src="<?= url('assets/images/icon--facebook.svg') ?>" alt="Facbook Icon">
+          </a>
+          <a class="social_media_icon" href="<?= $site->soundcloud_link() ?>" target="_blank">
+            <img src="<?= url('assets/images/icon--soundcloud.svg') ?>" alt="Soundcloud Icon">
+          </a>
+          <a class="social_media_icon" href="<?= $site->youtube_link() ?>" target="_blank">
+            <img src="<?= url('assets/images/icon--youtube.svg') ?>" alt="YouTube Icon">
+          </a>
+        </li>
+      </ul>
+    </nav>
     <!-- <ul class="main_header--langswitch">
       <?php foreach($site->languages() as $language): ?>
       <li>
