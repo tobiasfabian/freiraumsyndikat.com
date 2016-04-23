@@ -19,6 +19,7 @@
       } else {
         $foto_url_472_2x = $foto_file->resize(472 * 2, null, 60)->url();
         $foto_url_472 = $foto_file->resize(472, null, 70)->url();
+        $foto_url_640 = $foto_file->resize(640, null, 60)->url();
         $foto_url_320 = $foto_file->resize(320, null, 70)->url();
       }
     ?>
