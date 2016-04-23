@@ -24,8 +24,12 @@
     img {
       margin: 0 auto;
       max-width: 100%;
-      @media (min-height: 50rem) {
-        max-height: calc(100vh - 7rem);
+      max-height: calc(100vh - 7rem);
+      @media (max-height: 50rem) {
+        max-height: 100vh;
+      }
+      @media (max-width: 26rem) {
+        max-height: none;
       }
     }
   }
