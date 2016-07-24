@@ -2,11 +2,11 @@ Date: 2016-08-13 20:40:00
 
 ----
 
-Title: Festival Moments Musicaux 2016
+Title: Strange Meeting
 
 ----
 
-Untertitel: St. Sauveur
+Untertitel: Festival Moments Musicaux 2016
 
 ----
 
@@ -19,3 +19,7 @@ Stadt: Lendelin
 ----
 
 Facebook-link: 
+
+----
+
+Ticket-link: 

@@ -6,11 +6,11 @@ Title: Sommernacht im Wintergarten
 
 ----
 
-Untertitel: 
+Untertitel: (letzte Vorstellung in Heilbad Heiligenstadt)
 
 ----
 
-Veranstaltungsort: Kulturhaus Heiligenstadt
+Veranstaltungsort: Kulturhaus
 
 ----
 
@@ -19,3 +19,7 @@ Stadt: Heilbad Heiligenstadt
 ----
 
 Facebook-link: https://www.facebook.com/events/646716265467392/
+
+----
+
+Ticket-link: http://www.eichsfelder-kulturhaus.de/e159/e223/e2972/index_ger.html

@@ -7,18 +7,13 @@ Fotos:
 - 
   foto: pressefoto-1-web.jpg
   position: mitte
-  titel: >
-    Vier Musiker sitzen in einer schönen
-    Kulisse und halten ihre Instrumente in
-    der Hand
-  copyright: >
-    2015 Ronny Theodor Gustav Freiherr von
-    Ristok
+  titel: Freiraum Syndikat Pressebild 1
+  copyright: 2015 Ronny Ristok
   download: pressefoto-1.jpg
 - 
   foto: pressefoto-2-web.jpg
   position: mitte
-  titel: Musiker vor schwarzem Hintergrund
+  titel: Freiraum Syndikat Pressebild 2
   copyright: 2015 Ronny Ristok
   download: pressefoto-2.jpg
 - 
@@ -36,8 +31,8 @@ Fotos:
 - 
   foto: friederike_vollert-web.jpg
   position: links
-  titel: Frederike Voller
-  copyright: 2016 Ronny Ristok
+  titel: Friederike Vollert
+  copyright: 2015 Ronny Ristok
   download: friederike_vollert.jpg
 - 
   foto: lukas_dreyer-web.jpg
@@ -54,7 +49,7 @@ Fotos:
 - 
   foto: elisabeth_neuser-web.jpg
   position: rechts
-  titel: Elisabeth Neusser
+  titel: Elisabeth Neuser
   copyright: 2015 Ronny Ristok
   download: elisabeth_neuser.jpg
 

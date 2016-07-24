@@ -10,7 +10,7 @@ Untertitel: (Premiere)
 
 ----
 
-Veranstaltungsort: Heizhaus TPT
+Veranstaltungsort: Theater (Heizhaus)
 
 ----
 
@@ -18,4 +18,8 @@ Stadt: Altenburg
 
 ----
 
-Facebook-link: 
+Facebook-link: https://www.facebook.com/events/1699519210310155/
+
+----
+
+Ticket-link: https://shop.reservix.de/reservation/plan_reservation_back.php?PHPSESSID=8bfcaacb11bbccbb20949a0c08bd1775&eventID=815312&eventGrpID=191873&presellercheckID=616

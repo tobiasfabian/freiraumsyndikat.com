@@ -2,11 +2,11 @@ Date: 2016-08-11 20:00:00
 
 ----
 
-Title: Festival Moments Musicaux 2016
+Title: „Oiseaux et peuples migrateurs“
 
 ----
 
-Untertitel: „Oiseaux et peuples migrateurs“
+Untertitel: Festival Moments Musicaux
 
 ----
 
@@ -19,3 +19,7 @@ Stadt: Prieuré
 ----
 
 Facebook-link: 
+
+----
+
+Ticket-link: 

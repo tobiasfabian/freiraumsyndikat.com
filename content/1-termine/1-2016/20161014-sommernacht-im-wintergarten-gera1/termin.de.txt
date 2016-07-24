@@ -1,4 +1,4 @@
-Date: 2016-10-14 21:10:00
+Date: 2016-10-14 19:30:00
 
 ----
 
@@ -10,7 +10,7 @@ Untertitel: (Wiederaufnahme Kooperation TPT)
 
 ----
 
-Veranstaltungsort: Bühne am Park
+Veranstaltungsort: Theater (Bühne am Park)
 
 ----
 
@@ -18,4 +18,8 @@ Stadt: Gera
 
 ----
 
-Facebook-link: 
+Facebook-link: https://www.facebook.com/events/289950401350452/
+
+----
+
+Ticket-link: https://shop.reservix.de/reservation/plan_reservation_back.php?PHPSESSID=8bfcaacb11bbccbb20949a0c08bd1775&eventID=835761&eventGrpID=191873&presellercheckID=616
