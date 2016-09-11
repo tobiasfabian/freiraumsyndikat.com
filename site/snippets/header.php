@@ -30,13 +30,13 @@
         </li>
       </ul>
     </nav>
-    <!-- <ul class="main_header--langswitch">
+    <ul class="main_header--langswitch">
       <?php foreach($site->languages() as $language): ?>
       <li>
         <a <?= $site->language() === $language ? ' class="active"' : null ?> href="<?= $page->url($language->code()) ?>"><?= $language->code() ?></a>
       </li>
       <?php endforeach ?>
-    </ul> -->
+    </ul>
   </div>
   <img class="main_header--aside" src="<?= url('assets/images/aside.svg') ?>" alt="<?= $site->subtitle()->html() ?>">
 </header>
