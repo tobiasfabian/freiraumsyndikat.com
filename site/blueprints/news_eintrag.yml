@@ -2,6 +2,7 @@ title: News Eintrag
 pages: false
 files:
   type: image
+  size: 2000000
   fields:
     alt:
       label: Alternativer Text
