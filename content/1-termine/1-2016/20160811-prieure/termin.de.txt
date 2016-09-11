@@ -1,8 +1,8 @@
-Date: 2016-08-11 20:00:00
+Date: 2016-08-11 19:00:00
 
 ----
 
-Title: „Oiseaux et peuples migrateurs“
+Title: Concert & Conférence avec Dinet
 
 ----
 
@@ -18,8 +18,8 @@ Stadt: Prieuré
 
 ----
 
-Facebook-link: 
+Facebook-link: https://www.facebook.com/events/536977876502902/
 
 ----
 
-Ticket-link: 
+Ticket-link: http://moments-musicaux.fr/

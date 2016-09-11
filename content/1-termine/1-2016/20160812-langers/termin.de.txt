@@ -1,4 +1,4 @@
-Date: 2016-08-12 20:00:00
+Date: 2016-08-12 20:30:00
 
 ----
 
@@ -10,7 +10,7 @@ Untertitel: Festival Moments Musicaux
 
 ----
 
-Veranstaltungsort: St. Pierre
+Veranstaltungsort: Eglise de Genêts
 
 ----
 
@@ -18,8 +18,8 @@ Stadt: Langers
 
 ----
 
-Facebook-link: 
+Facebook-link: https://www.facebook.com/events/1073373779424372/
 
 ----
 
-Ticket-link: 
+Ticket-link: http://moments-musicaux.fr/
