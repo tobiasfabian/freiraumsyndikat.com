@@ -2,6 +2,7 @@ title: RSS
 pages: false
 files: false
 deletable: false
+hide: true
 fields:
   title:
     name: Title

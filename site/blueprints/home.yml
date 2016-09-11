@@ -1,6 +1,8 @@
 title: Startseite
 pages: false
-files: true
+files: false
+options:
+  status: false
 fields:
   title:
     label: Title
