@@ -64,9 +64,9 @@ kirbytext::$tags['image'] = array(
     $_image = function($class) use($tag, $url, $alt, $title) {
       if ($tag->page()->template() == 'news_eintrag') {
         $imageFile = $tag->file($tag->attr('image'));
-        $url = $imageFile->resize(608, null, 80)->url();
-        $url912 = $imageFile->resize(912, null, 80)->url();
-        $url1216 = $imageFile->resize(1216, null, 70)->url();
+        $url = $imageFile->resize(608, null, 70)->url();
+        $url912 = $imageFile->resize(912, null, 70)->url();
+        $url1216 = $imageFile->resize(1216, null, 60)->url();
         $srcset = $url . ' 608w, ' . $url912 . ' 912w, ' . $url1216 . ' 1216w';
         return html::img($url, array(
           'width'  => $tag->attr('width'),

@@ -48,8 +48,8 @@
         </div>
         <?php
         $foto_url_320_2x = $mitglied->foto()->toFile()->crop(320 * 2, null, 60)->url();
-        $foto_url_320 = $mitglied->foto()->toFile()->crop(320)->url();
-        $foto_url_160 = $mitglied->foto()->toFile()->crop(160)->url();
+        $foto_url_320 = $mitglied->foto()->toFile()->crop(320, null, 70)->url();
+        $foto_url_160 = $mitglied->foto()->toFile()->crop(160, null, 70)->url();
         ?>
         <picture>
           <source media="(max-width: 380px)" srcset="<?= $foto_url_160 ?> 1x, <?= $foto_url_320 ?> 2x">

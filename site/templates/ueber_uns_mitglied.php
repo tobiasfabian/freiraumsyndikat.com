@@ -15,7 +15,7 @@
       <h1><?= $page->title() ?></h1>
       <em><?= $page->instrument() ?></em>
     </header>
-    <img src="<?= $page->foto()->toFile()->crop(256)->url() ?>" srcset="<?= $page->foto()->toFile()->crop(256 * 2)->url() ?> 2x" class="mitglied--image" alt="<?= $page->title() ?>">
+    <img src="<?= $page->foto()->toFile()->crop(256)->url() ?>" srcset="<?= $page->foto()->toFile()->crop(256 * 2, null, 70)->url() ?> 2x" class="mitglied--image" alt="<?= $page->title() ?>">
     <div class="mitglied--intro">
       <?= $page->intro()->kt() ?>
     </div>
