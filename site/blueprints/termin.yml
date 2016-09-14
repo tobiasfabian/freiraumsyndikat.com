@@ -30,4 +30,5 @@ fields:
   facebook_link:
     label: Link zur Facebook-Veranstaltung
     type:  url
+    translate: false
     placeholder: https://facebook.com/events/1039391936154205/
