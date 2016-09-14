@@ -21,6 +21,7 @@ fields:
     label: Datum
     type:  datetime
     default: now
+    translate: false
     time:
       interval: 1
   text:

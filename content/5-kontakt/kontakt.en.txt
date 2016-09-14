@@ -22,11 +22,8 @@ Lukas Dreyer
 Davidstr. 6
 04109 Leipzig
 
-**Webdesign** (link: https://tobiaswolf.me text: Tobias Wolf popup: true)
-**Photos** Ronny Ristok
-**Video** Florian Froger
-**Font** (link: https://www.behance.net/gallery/29252427/Atzur-free-typefamily text: Atzur popup: true) by Oscar Cobo
-**Content Managment System** (link: https://getkirby.com text: Kirby popup: true)
+**Webdesign** (link: https://tobiaswolf.me text: Tobias Wolf popup: true) / **Photos** Ronny Ristok / **Video** Florian Froger
+**Font** (link: https://www.behance.net/gallery/29252427/Atzur-free-typefamily text: Atzur popup: true) by Oscar Cobo / **Content Managment System** (link: https://getkirby.com text: Kirby popup: true)
 
 #### Privacy Notice
 This website uses the web analytics service (link: https://piwik.org text: Piwik popup: true). Piwik uses Cookies, that enable an analysis of the usage of this website. For this purpose the data acquired by the Cookie is transferred to our server and saved for further usage analysis. During this process the IP-address is immediately anonymised. The data acquired in this process will of course not be forwarded to third parties. The tracking of analytics services and use of Cookies can be prevented with certain settings on your browser.
