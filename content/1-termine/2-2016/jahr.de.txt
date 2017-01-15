@@ -1,0 +1,37 @@
+Title: 2016
+
+----
+
+Termine: 
+
+- 
+  datum_start: 2016-10-01 19:30:00
+  datum_ende: 2016-10-01 20:15:00
+  titel: Sommernacht im Wintergarten
+  untertitel: (Premiere)
+  veranstaltungsort: Kulturhaus Heiligenstadt
+  strasse: Aegidienstraße 11a
+  plz: "37308"
+  stadt: Heilbad Heiligenstadt
+  facebook_link: >
+    https://www.facebook.com/events/1039391936154205/
+  datum: 2016-10-01 19:30:00
+- 
+  datum: 2016-10-02 17:00:00
+  titel: Sommernacht im Wintergarten
+  untertitel: ""
+  veranstaltungsort: Kulturhaus Heiligenstadt
+  stadt: Heilbad Heiligenstadt
+  facebook_link: >
+    https://www.facebook.com/events/646716265467392/
+- 
+  datum: 2016-02-03 00:40:00
+  titel: ""
+  untertitel: ""
+  veranstaltungsort: ""
+  stadt: ""
+  facebook_link: ""
+
+----
+
+Meta-description: Termine aus dem Jahr 2016 von Freiraum Syndikat – Baroque Jazz Chamber Group

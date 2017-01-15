@@ -49,6 +49,13 @@ Fotos:
   titel: Elisabeth Neusser
   copyright: 2015 Ronny Ristok
   download: elisabeth_neuser.jpg
+- 
+  foto: >
+    poster-strange-meeting-freiraum-syndikat-2017.jpg
+  download: ""
+  position: links
+  titel: poster STRANGE MEETING (example)
+  copyright: 2015 Ronny Ristok / 2016 flatlab
 
 ----
 
