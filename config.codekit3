@@ -1,0 +1,5997 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "E7220C1F-A202-488D-BC96-DF47E3668874"
+		}
+	],
+"creatorBuild": "25479",
+"files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.gitmodules": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitmodules",
+		"oF": 0
+		},
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
+	"\/assets\/css\/includes\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_article.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_article.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_ensemble.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_ensemble.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_galerie.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_galerie.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_kalender.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_kalender.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_klang.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_klang.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_main_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_main_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_mitglied.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_mitglied.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_pagenav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_pagenav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_pagination.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_pagination.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_presse_auszug.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_presse_auszug.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_seperator.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_seperator.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_subnav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_subnav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_artikel--eintrag.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_artikel--eintrag.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_error.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_error.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_fotos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_fotos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_hoerproben.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_hoerproben.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_jahr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_jahr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_kontakt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_kontakt.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_news--eintrag.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_news--eintrag.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_news.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_news.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_startseite.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_startseite.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/sites\/_videos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/_videos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/style.css.map",
+		"oF": 0
+		},
+	"\/assets\/css\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/fonts\/atzur_bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atzur_bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold_italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold_italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold_italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold_italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atzur_bold_italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold_italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold_italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold_italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_bold_italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_bold_italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atzur_italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_regular.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atzur_regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_regular.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_regular.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atzur_regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atzur_regular.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/webfontkit-20160221-152320\/generator_config.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/webfontkit-20160221-152320\/generator_config.txt",
+		"oF": 0
+		},
+	"\/assets\/fonts\/webfontkit-20160221-152320\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/webfontkit-20160221-152320\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/fonts\/webfontkit-20160221-152320\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/webfontkit-20160221-152320\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/fonts\/webfontkit-20160221-152320\/stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/webfontkit-20160221-152320\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/images\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/.gitkeep",
+		"oF": 0
+		},
+	"\/assets\/images\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 10025,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/aside.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/aside.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/fb-share-image.jpg": {
+		"ft": 16384,
+		"iS": 207005,
+		"oA": 0,
+		"oAP": "\/assets\/images\/fb-share-image.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/hero--startseite.jpg": {
+		"ft": 16384,
+		"iS": 106377,
+		"oA": 0,
+		"oAP": "\/assets\/images\/hero--startseite.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/icon--facebook-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--facebook-black.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/icon--facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--facebook.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/icon--soundcloud.png": {
+		"ft": 32768,
+		"iS": 481,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--soundcloud.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/icon--soundcloud.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--soundcloud.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/icon--soundcloud@2x.png": {
+		"ft": 32768,
+		"iS": 969,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--soundcloud@2x.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/icon--youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon--youtube.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/klang-elisabeth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/klang-elisabeth.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/klang-friederike.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/klang-friederike.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/klang-lukas.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/klang-lukas.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/klang-markus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/klang-markus.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/logo--background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo--background.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/main_header-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/main_header-background.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/seperator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/seperator.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/js\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/.gitkeep",
+		"oF": 0
+		},
+	"\/assets\/js\/helpers\/_scrollTo.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/helpers\/min\/_scrollTo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/min\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/main-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/main-min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/main-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_ensemble.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_ensemble-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_kalender.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_kalender-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_klaenge.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_klaenge-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_main_header.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_main_header-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_mitglied.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_mitglied-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modules\/_pagenav.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/modules\/min\/_pagenav-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/sites\/_error.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/sites\/min\/_error-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/sites\/_hoerproben.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/sites\/min\/_hoerproben-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/sites\/_jahr.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/sites\/min\/_jahr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/sites\/_kontakt.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/sites\/min\/_kontakt-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/sites\/_startseite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/sites\/min\/_startseite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160126-umrahmung-thueringer-landtag\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160126-umrahmung-thueringer-landtag\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160328-ausstellungseroeffnung-gesicht-zeigen\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160328-ausstellungseroeffnung-gesicht-zeigen\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160811-prieure\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160811-prieure\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160812-langers\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160812-langers\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160813-lendelin\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160813-lendelin\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160913-musikalische-lesung-islam\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160913-musikalische-lesung-islam\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160920-musikalische-vernissage-gesicht-zeigen-muehlhausen\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160920-musikalische-vernissage-gesicht-zeigen-muehlhausen\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20160923-sommernacht-im-wintergarten-abg\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20160923-sommernacht-im-wintergarten-abg\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20161014-sommernacht-im-wintergarten-gera1\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20161014-sommernacht-im-wintergarten-gera1\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20161015-sommernacht-im-wintergarten-gera2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20161015-sommernacht-im-wintergarten-gera2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20161027-musikalische-lesung-judentum\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20161027-musikalische-lesung-judentum\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20161108-musikalische-lesung-buddhismus\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20161108-musikalische-lesung-buddhismus\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/20161213-musikalische-lesung-christentum\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/20161213-musikalische-lesung-christentum\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/jahr.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/jahr.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/sommernacht-im-wintergarten-2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/sommernacht-im-wintergarten-2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/sommernacht-im-wintergarten\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/sommernacht-im-wintergarten\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2016\/strange-meeting-premiere\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2016\/strange-meeting-premiere\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2017\/20170113-strange-meeting-muehlhausen\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2017\/20170113-strange-meeting-muehlhausen\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2017\/20170114-strange-meeting-jan-2017\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2017\/20170114-strange-meeting-jan-2017\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/1-2017\/jahr.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/1-2017\/jahr.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150525-gruendungskonzert\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150525-gruendungskonzert\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150627-sommernacht-im-wintergarten\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150627-sommernacht-im-wintergarten\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150628-sommernacht-im-wintergarten2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150628-sommernacht-im-wintergarten2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150702-sommernacht-im-wintergarten3\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150702-sommernacht-im-wintergarten3\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150703-sommernacht-im-wintergarten4\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150703-sommernacht-im-wintergarten4\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150704-sommernacht-im-wintergarten5\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150704-sommernacht-im-wintergarten5\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150709-sommernacht-im-wintergarten6\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150709-sommernacht-im-wintergarten6\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150710-sommernacht-im-wintergarten7\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150710-sommernacht-im-wintergarten7\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150711-sommernacht-im-wintergarten8\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150711-sommernacht-im-wintergarten8\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150712-sommernacht-im-wintergarten9\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150712-sommernacht-im-wintergarten9\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150817-konzert-gut-ossmannstedt\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150817-konzert-gut-ossmannstedt\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150918-eroeffnungsgala-gera\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150918-eroeffnungsgala-gera\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/20150920-eroeffnungsgala-altenburg\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/20150920-eroeffnungsgala-altenburg\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2015\/jahr.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2015\/jahr.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160126-umrahmung-thueringer-landtag\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160126-umrahmung-thueringer-landtag\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160328-ausstellungseroeffnung-gesicht-zeigen\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160328-ausstellungseroeffnung-gesicht-zeigen\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160811-prieure\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160811-prieure\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160812-langers\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160812-langers\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160813-lendelin\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160813-lendelin\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160913-musikalische-lesung-islam\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160913-musikalische-lesung-islam\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160920-musikalische-vernissage-gesicht-zeigen-muehlhausen\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160920-musikalische-vernissage-gesicht-zeigen-muehlhausen\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20160923-sommernacht-im-wintergarten-abg\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20160923-sommernacht-im-wintergarten-abg\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20161014-sommernacht-im-wintergarten-gera1\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20161014-sommernacht-im-wintergarten-gera1\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20161015-sommernacht-im-wintergarten-gera2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20161015-sommernacht-im-wintergarten-gera2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20161027-musikalische-lesung-judentum\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20161027-musikalische-lesung-judentum\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20161108-musikalische-lesung-buddhismus\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20161108-musikalische-lesung-buddhismus\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/20161213-musikalische-lesung-christentum\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/20161213-musikalische-lesung-christentum\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/jahr.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/jahr.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/sommernacht-im-wintergarten-2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/sommernacht-im-wintergarten-2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/sommernacht-im-wintergarten\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/sommernacht-im-wintergarten\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/2-2016\/strange-meeting-premiere\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/2-2016\/strange-meeting-premiere\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150525-gruendungskonzert\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150525-gruendungskonzert\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150627-sommernacht-im-wintergarten\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150627-sommernacht-im-wintergarten\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150628-sommernacht-im-wintergarten2\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150628-sommernacht-im-wintergarten2\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150702-sommernacht-im-wintergarten3\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150702-sommernacht-im-wintergarten3\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150703-sommernacht-im-wintergarten4\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150703-sommernacht-im-wintergarten4\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150704-sommernacht-im-wintergarten5\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150704-sommernacht-im-wintergarten5\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150709-sommernacht-im-wintergarten6\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150709-sommernacht-im-wintergarten6\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150710-sommernacht-im-wintergarten7\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150710-sommernacht-im-wintergarten7\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150711-sommernacht-im-wintergarten8\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150711-sommernacht-im-wintergarten8\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150712-sommernacht-im-wintergarten9\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150712-sommernacht-im-wintergarten9\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150817-konzert-gut-ossmannstedt\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150817-konzert-gut-ossmannstedt\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150918-eroeffnungsgala-gera\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150918-eroeffnungsgala-gera\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/20150920-eroeffnungsgala-altenburg\/termin.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/20150920-eroeffnungsgala-altenburg\/termin.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/3-2015\/jahr.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/3-2015\/jahr.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/termine.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/termine.de.txt",
+		"oF": 0
+		},
+	"\/content\/1-termine\/termine.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-termine\/termine.en.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/1-elisabeth-neuser\/elisabeth_neuser.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/2-ueber-uns\/1-elisabeth-neuser\/elisabeth_neuser.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_mitglied.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_mitglied.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_mitglied.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/1-elisabeth-neuser\/ueber_uns_mitglied.en.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/2-lukas-dreyer\/lukas_dreyer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/2-ueber-uns\/2-lukas-dreyer\/lukas_dreyer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_mitglied.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_mitglied.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_mitglied.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/2-lukas-dreyer\/ueber_uns_mitglied.en.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/3-markus-fleischer\/markus_fleischer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/2-ueber-uns\/3-markus-fleischer\/markus_fleischer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_mitglied.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_mitglied.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_mitglied.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/3-markus-fleischer\/ueber_uns_mitglied.en.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/4-friederike-vollert\/friederike_vollert.jpg": {
+		"ft": 16384,
+		"iS": 257371,
+		"oA": 0,
+		"oAP": "\/content\/2-ueber-uns\/4-friederike-vollert\/friederike_vollert.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_mitglied.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_mitglied.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_mitglied.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/4-friederike-vollert\/ueber_uns_mitglied.en.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/presse\/1-freiraum-syndikat-voellig-neue-musik-entwickeln\/presse_artikel.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/presse\/1-freiraum-syndikat-voellig-neue-musik-entwickeln\/presse_artikel.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/presse\/presse.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/presse\/presse.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/ueber_uns.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/ueber_uns.de.txt",
+		"oF": 0
+		},
+	"\/content\/2-ueber-uns\/ueber_uns.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-ueber-uns\/ueber_uns.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160306-festival-moments-musicaux-2016\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160306-festival-moments-musicaux-2016\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160306-festival-moments-musicaux-2016\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160306-festival-moments-musicaux-2016\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160306-festival-moments-musicaux-2016\/prieure-3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/3-news\/20160306-festival-moments-musicaux-2016\/prieure-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-news\/20160306-festival-moments-musicaux-2016\/prieure-3.jpg.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160306-festival-moments-musicaux-2016\/prieure-3.jpg.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160331-webseite-online\/kreis.jpg": {
+		"ft": 16384,
+		"iS": 599266,
+		"oA": 0,
+		"oAP": "\/content\/3-news\/20160331-webseite-online\/kreis.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-news\/20160331-webseite-online\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160331-webseite-online\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160331-webseite-online\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160331-webseite-online\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160430-kooperation-konrad-adenauer-stiftung\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160430-kooperation-konrad-adenauer-stiftung\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160608-programm-strange-meeting\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160608-programm-strange-meeting\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160608-programm-strange-meeting\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160608-programm-strange-meeting\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160726-webseite-online\/kreis.jpg": {
+		"ft": 16384,
+		"iS": 599266,
+		"oA": 0,
+		"oAP": "\/content\/3-news\/20160726-webseite-online\/kreis.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-news\/20160726-webseite-online\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160726-webseite-online\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160726-webseite-online\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160726-webseite-online\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160827-august-in-frankreich\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160827-august-in-frankreich\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20160827-august-in-frankreich\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20160827-august-in-frankreich\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20161025-herbstlesung\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20161025-herbstlesung\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20161025-herbstlesung\/news_eintrag.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20161025-herbstlesung\/news_eintrag.en.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20170101-januar-2017\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20170101-januar-2017\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/20170101-januar-2017\/poster-strange-meeting-freiraum-syndikat-2017.jpg": {
+		"ft": 16384,
+		"iS": 1306416,
+		"oA": 0,
+		"oAP": "\/content\/3-news\/20170101-januar-2017\/poster-strange-meeting-freiraum-syndikat-2017.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-news\/20170101-januar-2017\/poster-strange-meeting-freiraum-syndikat-2017.jpg.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/20170101-januar-2017\/poster-strange-meeting-freiraum-syndikat-2017.jpg.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/kooperation-konrad-adenauer-stiftung\/news_eintrag.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/kooperation-konrad-adenauer-stiftung\/news_eintrag.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/news.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/news.de.txt",
+		"oF": 0
+		},
+	"\/content\/3-news\/rss\/rss.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-news\/rss\/rss.de.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/1-fotos\/Elisabeth_Neuser-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/Elisabeth_Neuser-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/Elisabeth_Neuser.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/Elisabeth_Neuser.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/fotos.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/1-fotos\/fotos.de.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/1-fotos\/fotos.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/1-fotos\/fotos.en.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/1-fotos\/friederike_vollert-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/friederike_vollert-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/friederike_vollert.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/friederike_vollert.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/kreis.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/kreis.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/Lukas_Dreyer-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/Lukas_Dreyer-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/Lukas_Dreyer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/Lukas_Dreyer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/Markus_Fleischer-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/Markus_Fleischer-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/markus_fleischer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/markus_fleischer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/mundauf-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/mundauf-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/mundauf.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/mundauf.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/poster-strange-meeting-freiraum-syndikat-2017.jpg": {
+		"ft": 16384,
+		"iS": 1306416,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/poster-strange-meeting-freiraum-syndikat-2017.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/pressefoto-1-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/pressefoto-1-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/pressefoto-1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/pressefoto-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/pressefoto-2-web.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/pressefoto-2-web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/1-fotos\/pressefoto-2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/content\/4-media\/1-fotos\/pressefoto-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/4-media\/2-hoerproben\/hoerproben.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/2-hoerproben\/hoerproben.de.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/2-hoerproben\/hoerproben.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/2-hoerproben\/hoerproben.en.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/3-videos\/videos.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/3-videos\/videos.de.txt",
+		"oF": 0
+		},
+	"\/content\/4-media\/media.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/4-media\/media.de.txt",
+		"oF": 0
+		},
+	"\/content\/5-kontakt\/kontakt.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/5-kontakt\/kontakt.de.txt",
+		"oF": 0
+		},
+	"\/content\/5-kontakt\/kontakt.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/5-kontakt\/kontakt.en.txt",
+		"oF": 0
+		},
+	"\/content\/error\/error.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/error\/error.de.txt",
+		"oF": 0
+		},
+	"\/content\/error\/error.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/error\/error.en.txt",
+		"oF": 0
+		},
+	"\/content\/home\/home.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/home\/home.de.txt",
+		"oF": 0
+		},
+	"\/content\/home\/home.en.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/home\/home.en.txt",
+		"oF": 0
+		},
+	"\/content\/site.de.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/site.de.txt",
+		"oF": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/google509e9b611f89e2d8.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/google509e9b611f89e2d8.html",
+		"oF": 0
+		},
+	"\/google528c7c7784687219.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/google528c7c7784687219.html",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/kirby": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/kirby",
+		"oF": 0
+		},
+	"\/license.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/license.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/panel": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/panel",
+		"oF": 0
+		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/site\/accounts\/.logins": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/.logins",
+		"oF": 0
+		},
+	"\/site\/accounts\/lukas.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/accounts\/lukas.php",
+		"oF": 0
+		},
+	"\/site\/accounts\/tobias.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/accounts\/tobias.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/default.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/default.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/error.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/error.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/fields\/meta_description.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/fields\/meta_description.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/fotos.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/fotos.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/hoerproben.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/hoerproben.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/home.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/home.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/jahr.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/jahr.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/kontakt.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/kontakt.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/media.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/media.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/news.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/news.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/news_eintrag.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/news_eintrag.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/presse.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/presse.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/presse_artikel.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/presse_artikel.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/rss.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/rss.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/site.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/site.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/termin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/termin.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/termine.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/termine.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/ueber_uns.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/ueber_uns.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/ueber_uns_mitglied.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/ueber_uns_mitglied.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/videos.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/videos.yml",
+		"oF": 0
+		},
+	"\/site\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/site\/cache",
+		"oF": 0
+		},
+	"\/site\/config\/config.freiraumsyndikat.com.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/config\/config.freiraumsyndikat.com.php",
+		"oF": 0
+		},
+	"\/site\/config\/config.localhost.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/config\/config.localhost.php",
+		"oF": 0
+		},
+	"\/site\/config\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/config\/config.php",
+		"oF": 0
+		},
+	"\/site\/languages\/de.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/languages\/de.php",
+		"oF": 0
+		},
+	"\/site\/languages\/en.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/languages\/en.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/plugins\/.gitkeep",
+		"oF": 0
+		},
+	"\/site\/snippets\/foot.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/foot.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/galerie.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/galerie.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/head.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/head.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/header.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/kalender.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/kalender.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/klaenge.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/klaenge.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/piwik.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/piwik.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/presse.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/presse.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/subnav.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/subnav.php",
+		"oF": 0
+		},
+	"\/site\/tags\/facebook_icon.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/tags\/facebook_icon.php",
+		"oF": 0
+		},
+	"\/site\/tags\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/tags\/image.php",
+		"oF": 0
+		},
+	"\/site\/templates\/default.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/default.php",
+		"oF": 0
+		},
+	"\/site\/templates\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/error.php",
+		"oF": 0
+		},
+	"\/site\/templates\/fotos.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/fotos.php",
+		"oF": 0
+		},
+	"\/site\/templates\/hoerproben.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/hoerproben.php",
+		"oF": 0
+		},
+	"\/site\/templates\/home.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/home.php",
+		"oF": 0
+		},
+	"\/site\/templates\/jahr.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/jahr.php",
+		"oF": 0
+		},
+	"\/site\/templates\/kontakt.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/kontakt.php",
+		"oF": 0
+		},
+	"\/site\/templates\/media.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/media.php",
+		"oF": 0
+		},
+	"\/site\/templates\/news.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/news.php",
+		"oF": 0
+		},
+	"\/site\/templates\/news_eintrag.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/news_eintrag.php",
+		"oF": 0
+		},
+	"\/site\/templates\/presse.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/presse.php",
+		"oF": 0
+		},
+	"\/site\/templates\/presse_artikel.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/presse_artikel.php",
+		"oF": 0
+		},
+	"\/site\/templates\/rss.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/rss.php",
+		"oF": 0
+		},
+	"\/site\/templates\/termin.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/termin.php",
+		"oF": 0
+		},
+	"\/site\/templates\/termine.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/termine.php",
+		"oF": 0
+		},
+	"\/site\/templates\/ueber_uns.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/ueber_uns.php",
+		"oF": 0
+		},
+	"\/site\/templates\/ueber_uns_mitglied.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/ueber_uns_mitglied.php",
+		"oF": 0
+		},
+	"\/site\/templates\/videos.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/videos.php",
+		"oF": 0
+		},
+	"\/thumbs\/elisabeth_neuser-10e537121f1778da5be7bc541daf29e2-w75.jpg": {
+		"ft": 16384,
+		"iS": 1962,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-10e537121f1778da5be7bc541daf29e2-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-2c827870455c5a5543ddc0c52c2fc099-w512.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-2c827870455c5a5543ddc0c52c2fc099-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-5d9f3219a91112de43394e12ddf2e517-w160.jpg": {
+		"ft": 16384,
+		"iS": 6619,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-5d9f3219a91112de43394e12ddf2e517-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-69c5e0c6870a88306ab27cc542d35db5-w231.jpg": {
+		"ft": 16384,
+		"iS": 12065,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-69c5e0c6870a88306ab27cc542d35db5-w231.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-8388568ff11d3977862241f7a122805a-w640.jpg": {
+		"ft": 16384,
+		"iS": 30802,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-8388568ff11d3977862241f7a122805a-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-9d7bd1443b206e19ba32fbeb9eb14c57-w462.jpg": {
+		"ft": 16384,
+		"iS": 40199,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-9d7bd1443b206e19ba32fbeb9eb14c57-w462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-dcb5629a959f82fd4ee325c1e2ce0b57-w320.jpg": {
+		"ft": 16384,
+		"iS": 20958,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-dcb5629a959f82fd4ee325c1e2ce0b57-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-e948e8471086464f3ada7a3f0073ce74-w256.jpg": {
+		"ft": 16384,
+		"iS": 14236,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-e948e8471086464f3ada7a3f0073ce74-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-web-2ac7f75ca73de9fb864b92ff4fdb5f6e-w472.jpg": {
+		"ft": 16384,
+		"iS": 26359,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-web-2ac7f75ca73de9fb864b92ff4fdb5f6e-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-web-5b27592ca6a11cdc178f6c908461ffcd-w320.jpg": {
+		"ft": 16384,
+		"iS": 12096,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-web-5b27592ca6a11cdc178f6c908461ffcd-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-web-7463a82712ee24a7717e6ea2663476c1-w640.jpg": {
+		"ft": 16384,
+		"iS": 36550,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-web-7463a82712ee24a7717e6ea2663476c1-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/elisabeth_neuser-web-8d927e76d1ff99e2ca501d914b00a121-w944.jpg": {
+		"ft": 16384,
+		"iS": 83294,
+		"oA": 0,
+		"oAP": "\/thumbs\/elisabeth_neuser-web-8d927e76d1ff99e2ca501d914b00a121-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-2b837769d65fc3efeeaa8a1288ce51ec-w231.jpg": {
+		"ft": 16384,
+		"iS": 11425,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-2b837769d65fc3efeeaa8a1288ce51ec-w231.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-39bc8d4b68cd4bfc869ebac76ffff841-w320.jpg": {
+		"ft": 16384,
+		"iS": 19680,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-39bc8d4b68cd4bfc869ebac76ffff841-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-3b046dc41605c8edc8b602807a2908d0-w75.jpg": {
+		"ft": 16384,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-3b046dc41605c8edc8b602807a2908d0-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-542d46d2e0c4115d8bc67fae7636dbb1-w160.jpg": {
+		"ft": 16384,
+		"iS": 6315,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-542d46d2e0c4115d8bc67fae7636dbb1-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-671c2c7b6c912f118d6c354958a6b1e2-w640.jpg": {
+		"ft": 16384,
+		"iS": 28224,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-671c2c7b6c912f118d6c354958a6b1e2-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-d5b91d5edf1b59d02ecec2109dc3644f-w462.jpg": {
+		"ft": 16384,
+		"iS": 38213,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-d5b91d5edf1b59d02ecec2109dc3644f-w462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-web-0543bf1752e20789b4235ada17d88919-w320.jpg": {
+		"ft": 16384,
+		"iS": 10938,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-web-0543bf1752e20789b4235ada17d88919-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-web-093b9684c166063615a745cd7eff7fb8-w472.jpg": {
+		"ft": 16384,
+		"iS": 20824,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-web-093b9684c166063615a745cd7eff7fb8-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-web-470f082f6ebee04ba12e66d8303f0d11-w944.jpg": {
+		"ft": 16384,
+		"iS": 56677,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-web-470f082f6ebee04ba12e66d8303f0d11-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/friederike_vollert-web-df83c3a62cdda09f30dd8405ff7dba09-w640.jpg": {
+		"ft": 16384,
+		"iS": 27734,
+		"oA": 0,
+		"oAP": "\/thumbs\/friederike_vollert-web-df83c3a62cdda09f30dd8405ff7dba09-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-075fc3b60aec8917e2be17a9fbde21fa-w640.jpg": {
+		"ft": 16384,
+		"iS": 38456,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-075fc3b60aec8917e2be17a9fbde21fa-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-1a3ff857905ea374a8d72a39ffa6a437-w912.jpg": {
+		"ft": 16384,
+		"iS": 119591,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-1a3ff857905ea374a8d72a39ffa6a437-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-38c51605f8f5ff39a05eb5fd65c8ddc6-w1216.jpg": {
+		"ft": 16384,
+		"iS": 183057,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-38c51605f8f5ff39a05eb5fd65c8ddc6-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-526a76d9f7bc0b0526b107a1e2773e91-w912.jpg": {
+		"ft": 16384,
+		"iS": 119591,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-526a76d9f7bc0b0526b107a1e2773e91-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-55f276d3ee41fb0be85ff397536e3d7e-w1216.jpg": {
+		"ft": 16384,
+		"iS": 183057,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-55f276d3ee41fb0be85ff397536e3d7e-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-5e6d33a3313fcc6ff0dac61fe393b465-w608.jpg": {
+		"ft": 16384,
+		"iS": 63424,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-5e6d33a3313fcc6ff0dac61fe393b465-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-61a3892363f7968e130a46d2890902f9-w320.jpg": {
+		"ft": 16384,
+		"iS": 13407,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-61a3892363f7968e130a46d2890902f9-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-8b10dab717f7c5e872588fed692eb113-w1280.jpg": {
+		"ft": 16384,
+		"iS": 91267,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-8b10dab717f7c5e872588fed692eb113-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-b82d534bb0e3b49c3125e02045262da6-w944.jpg": {
+		"ft": 16384,
+		"iS": 69152,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-b82d534bb0e3b49c3125e02045262da6-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-bd4f6285e781e3ede2733debde303d37-w472.jpg": {
+		"ft": 16384,
+		"iS": 24151,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-bd4f6285e781e3ede2733debde303d37-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-f087543a5c78c48c651c83918d44914a-w608.jpg": {
+		"ft": 16384,
+		"iS": 63424,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-f087543a5c78c48c651c83918d44914a-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/kreis-fedb1c7259674c7091555cbd611130e7-w1888.jpg": {
+		"ft": 16384,
+		"iS": 104672,
+		"oA": 0,
+		"oAP": "\/thumbs\/kreis-fedb1c7259674c7091555cbd611130e7-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-1171c09a3760efdd590c8cd96f4ca8bd-w512.jpg": {
+		"ft": 16384,
+		"iS": 20429,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-1171c09a3760efdd590c8cd96f4ca8bd-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-42298f3864dc5021bdb0440e61f6e235-w231.jpg": {
+		"ft": 16384,
+		"iS": 9098,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-42298f3864dc5021bdb0440e61f6e235-w231.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-488e232ac4be8161daf7e446d36ea8d6-w512.jpg": {
+		"ft": 16384,
+		"iS": 100899,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-488e232ac4be8161daf7e446d36ea8d6-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-600c0b35cd5fcb523d38b2ffd4293f47-w320.jpg": {
+		"ft": 16384,
+		"iS": 14595,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-600c0b35cd5fcb523d38b2ffd4293f47-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-783056320e103ed9c34134a482d4ee42-w512.jpg": {
+		"ft": 16384,
+		"iS": 30659,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-783056320e103ed9c34134a482d4ee42-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-86bc20d93e00200e0409a35499c6bb9e-w462.jpg": {
+		"ft": 16384,
+		"iS": 26244,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-86bc20d93e00200e0409a35499c6bb9e-w462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-98780a222fed7dde341b4da022d3fdf5-w640.jpg": {
+		"ft": 16384,
+		"iS": 19325,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-98780a222fed7dde341b4da022d3fdf5-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-cb54b7a1f212f1f48d8eb7153bc77e0a-w512.jpg": {
+		"ft": 16384,
+		"iS": 6978,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-cb54b7a1f212f1f48d8eb7153bc77e0a-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-db77dc3edaf7ff425e606315de6e675c-w75.jpg": {
+		"ft": 16384,
+		"iS": 1763,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-db77dc3edaf7ff425e606315de6e675c-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-e5767706ae285c3534360e393f434cd9-w160.jpg": {
+		"ft": 16384,
+		"iS": 5338,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-e5767706ae285c3534360e393f434cd9-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-f2813af7d3776d19691cecca5cd61d74-w256.jpg": {
+		"ft": 16384,
+		"iS": 10421,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-f2813af7d3776d19691cecca5cd61d74-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-web-17bff238f01f02ccdcea3d42749c55c6-w640.jpg": {
+		"ft": 16384,
+		"iS": 24248,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-web-17bff238f01f02ccdcea3d42749c55c6-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-web-2fa3bdc122be3e9cc8805ad48ea076aa-w472.jpg": {
+		"ft": 16384,
+		"iS": 18373,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-web-2fa3bdc122be3e9cc8805ad48ea076aa-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-web-914630679f75eb1c23d8156ef4e12f2b-w320.jpg": {
+		"ft": 16384,
+		"iS": 9918,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-web-914630679f75eb1c23d8156ef4e12f2b-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/lukas_dreyer-web-9360a2e99d5d92732d1d55282adb500f-w944.jpg": {
+		"ft": 16384,
+		"iS": 47221,
+		"oA": 0,
+		"oAP": "\/thumbs\/lukas_dreyer-web-9360a2e99d5d92732d1d55282adb500f-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-1be72a88864a0158d589a91a66ca3796-w462.jpg": {
+		"ft": 16384,
+		"iS": 27510,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-1be72a88864a0158d589a91a66ca3796-w462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-3a660eb7a51ac22e26e40e0e76d7ee37-w256.jpg": {
+		"ft": 16384,
+		"iS": 10172,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-3a660eb7a51ac22e26e40e0e76d7ee37-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-47d4e883ff7df3c91fa28e929ed98cf2-w231.jpg": {
+		"ft": 16384,
+		"iS": 8709,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-47d4e883ff7df3c91fa28e929ed98cf2-w231.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-54a36b40774a4adf92b6ed0c12beac1c-w512.jpg": {
+		"ft": 16384,
+		"iS": 32694,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-54a36b40774a4adf92b6ed0c12beac1c-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-63adf271b98334201699190d2507fb58-w160.jpg": {
+		"ft": 16384,
+		"iS": 4981,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-63adf271b98334201699190d2507fb58-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-73d5d58a94fcdecebe92bdf881b42dde-w75.jpg": {
+		"ft": 16384,
+		"iS": 1576,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-73d5d58a94fcdecebe92bdf881b42dde-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-94d16fde4894c02c22200252e4db47cf-w640.jpg": {
+		"ft": 16384,
+		"iS": 18960,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-94d16fde4894c02c22200252e4db47cf-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-b445c9ce3502043b52ae5d9cd7fcd920-w320.jpg": {
+		"ft": 16384,
+		"iS": 14458,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-b445c9ce3502043b52ae5d9cd7fcd920-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-web-34eace65c66b9a8fd01203d484e932c9-w640.jpg": {
+		"ft": 16384,
+		"iS": 11852,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-web-34eace65c66b9a8fd01203d484e932c9-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-web-3765cc0d9614b49cf69cfb00bdeeb708-w320.jpg": {
+		"ft": 16384,
+		"iS": 4868,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-web-3765cc0d9614b49cf69cfb00bdeeb708-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-web-6a9c9b5abff73ef822d5db57fd7da591-w944.jpg": {
+		"ft": 16384,
+		"iS": 23177,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-web-6a9c9b5abff73ef822d5db57fd7da591-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/markus_fleischer-web-d67405e8dd24ab7ca84bde2b6c5652f2-w472.jpg": {
+		"ft": 16384,
+		"iS": 8743,
+		"oA": 0,
+		"oAP": "\/thumbs\/markus_fleischer-web-d67405e8dd24ab7ca84bde2b6c5652f2-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-5ad77ccde8e2d0d1dc3c6e35be839971-w75.jpg": {
+		"ft": 16384,
+		"iS": 2077,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-5ad77ccde8e2d0d1dc3c6e35be839971-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-web-2ac7f75ca73de9fb864b92ff4fdb5f6e-w472.jpg": {
+		"ft": 16384,
+		"iS": 26359,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-web-2ac7f75ca73de9fb864b92ff4fdb5f6e-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-web-5b27592ca6a11cdc178f6c908461ffcd-w320.jpg": {
+		"ft": 16384,
+		"iS": 12096,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-web-5b27592ca6a11cdc178f6c908461ffcd-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-web-663a014d016d1e706b596d772927a618-w75.jpg": {
+		"ft": 16384,
+		"iS": 2080,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-web-663a014d016d1e706b596d772927a618-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-web-7463a82712ee24a7717e6ea2663476c1-w640.jpg": {
+		"ft": 16384,
+		"iS": 36550,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-web-7463a82712ee24a7717e6ea2663476c1-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/elisabeth_neuser-web-8d927e76d1ff99e2ca501d914b00a121-w944.jpg": {
+		"ft": 16384,
+		"iS": 83294,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/elisabeth_neuser-web-8d927e76d1ff99e2ca501d914b00a121-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-fb00748a3dd391c66e50f530e965a6f8-w75.jpg": {
+		"ft": 16384,
+		"iS": 2177,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-fb00748a3dd391c66e50f530e965a6f8-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-web-0543bf1752e20789b4235ada17d88919-w320.jpg": {
+		"ft": 16384,
+		"iS": 10938,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-web-0543bf1752e20789b4235ada17d88919-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-web-093b9684c166063615a745cd7eff7fb8-w472.jpg": {
+		"ft": 16384,
+		"iS": 20824,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-web-093b9684c166063615a745cd7eff7fb8-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-web-470f082f6ebee04ba12e66d8303f0d11-w944.jpg": {
+		"ft": 16384,
+		"iS": 56677,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-web-470f082f6ebee04ba12e66d8303f0d11-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-web-513deb9438c009e722165577176f86e0-w75.jpg": {
+		"ft": 16384,
+		"iS": 2166,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-web-513deb9438c009e722165577176f86e0-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/friederike_vollert-web-df83c3a62cdda09f30dd8405ff7dba09-w640.jpg": {
+		"ft": 16384,
+		"iS": 27734,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/friederike_vollert-web-df83c3a62cdda09f30dd8405ff7dba09-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-075fc3b60aec8917e2be17a9fbde21fa-w640.jpg": {
+		"ft": 16384,
+		"iS": 38456,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-075fc3b60aec8917e2be17a9fbde21fa-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-61a3892363f7968e130a46d2890902f9-w320.jpg": {
+		"ft": 16384,
+		"iS": 13407,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-61a3892363f7968e130a46d2890902f9-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-87ff17b85d993e0e4a2417f797326b47-w75.jpg": {
+		"ft": 16384,
+		"iS": 2903,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-87ff17b85d993e0e4a2417f797326b47-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-8b10dab717f7c5e872588fed692eb113-w1280.jpg": {
+		"ft": 16384,
+		"iS": 91267,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-8b10dab717f7c5e872588fed692eb113-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-b82d534bb0e3b49c3125e02045262da6-w944.jpg": {
+		"ft": 16384,
+		"iS": 69152,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-b82d534bb0e3b49c3125e02045262da6-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-bd4f6285e781e3ede2733debde303d37-w472.jpg": {
+		"ft": 16384,
+		"iS": 24151,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-bd4f6285e781e3ede2733debde303d37-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/kreis-fedb1c7259674c7091555cbd611130e7-w1335.jpg": {
+		"ft": 16384,
+		"iS": 104672,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/kreis-fedb1c7259674c7091555cbd611130e7-w1335.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-fc2c32a23df2b5a07be69dbe348b451f-w75.jpg": {
+		"ft": 16384,
+		"iS": 1938,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-fc2c32a23df2b5a07be69dbe348b451f-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-web-17bff238f01f02ccdcea3d42749c55c6-w640.jpg": {
+		"ft": 16384,
+		"iS": 24248,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-web-17bff238f01f02ccdcea3d42749c55c6-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-web-2fa3bdc122be3e9cc8805ad48ea076aa-w472.jpg": {
+		"ft": 16384,
+		"iS": 18373,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-web-2fa3bdc122be3e9cc8805ad48ea076aa-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-web-914630679f75eb1c23d8156ef4e12f2b-w320.jpg": {
+		"ft": 16384,
+		"iS": 9918,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-web-914630679f75eb1c23d8156ef4e12f2b-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-web-9360a2e99d5d92732d1d55282adb500f-w944.jpg": {
+		"ft": 16384,
+		"iS": 47221,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-web-9360a2e99d5d92732d1d55282adb500f-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/lukas_dreyer-web-d94692fd8fe1538e6f869f3028dfcbeb-w75.jpg": {
+		"ft": 16384,
+		"iS": 1940,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/lukas_dreyer-web-d94692fd8fe1538e6f869f3028dfcbeb-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-fcb4725426e8414f61bd61f4359fd971-w75.jpg": {
+		"ft": 16384,
+		"iS": 1423,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-fcb4725426e8414f61bd61f4359fd971-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-web-34eace65c66b9a8fd01203d484e932c9-w640.jpg": {
+		"ft": 16384,
+		"iS": 11852,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-web-34eace65c66b9a8fd01203d484e932c9-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-web-3765cc0d9614b49cf69cfb00bdeeb708-w320.jpg": {
+		"ft": 16384,
+		"iS": 4868,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-web-3765cc0d9614b49cf69cfb00bdeeb708-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-web-6a9c9b5abff73ef822d5db57fd7da591-w944.jpg": {
+		"ft": 16384,
+		"iS": 23177,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-web-6a9c9b5abff73ef822d5db57fd7da591-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-web-97db644153bb4641edb5cb9a9fac3334-w75.jpg": {
+		"ft": 16384,
+		"iS": 1430,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-web-97db644153bb4641edb5cb9a9fac3334-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/markus_fleischer-web-d67405e8dd24ab7ca84bde2b6c5652f2-w472.jpg": {
+		"ft": 16384,
+		"iS": 8743,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/markus_fleischer-web-d67405e8dd24ab7ca84bde2b6c5652f2-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-0dadfa42343a20b10a3fc107e5009f07-w75.jpg": {
+		"ft": 16384,
+		"iS": 2902,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-0dadfa42343a20b10a3fc107e5009f07-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-3db5e88a5ed7dbff55d06b7df2346d85-w1280.jpg": {
+		"ft": 16384,
+		"iS": 95481,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-3db5e88a5ed7dbff55d06b7df2346d85-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-56fbd2616c7974e49667d3c43e3ee57d-w944.jpg": {
+		"ft": 16384,
+		"iS": 70579,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-56fbd2616c7974e49667d3c43e3ee57d-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-865e94f232c5ab878f759459761c2cb3-w75.jpg": {
+		"ft": 16384,
+		"iS": 2914,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-865e94f232c5ab878f759459761c2cb3-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-8ec599ccded6024e1f586a5245f44eb8-w320.jpg": {
+		"ft": 16384,
+		"iS": 11846,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-8ec599ccded6024e1f586a5245f44eb8-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-9d000ca9da174f4aa54ebaf2f652b2f9-w1888.jpg": {
+		"ft": 16384,
+		"iS": 201798,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-9d000ca9da174f4aa54ebaf2f652b2f9-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-a7ac2fbfa6bffcec150dacdffdb71d77-w640.jpg": {
+		"ft": 16384,
+		"iS": 35479,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-a7ac2fbfa6bffcec150dacdffdb71d77-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/mundauf-web-a9041e6472812266175b6e21a0765d76-w472.jpg": {
+		"ft": 16384,
+		"iS": 22226,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/mundauf-web-a9041e6472812266175b6e21a0765d76-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-461ffc41341157b9ab96dfbb1eca6b09-w320.jpg": {
+		"ft": 16384,
+		"iS": 27520,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-461ffc41341157b9ab96dfbb1eca6b09-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-8c3a419f4eb463e5d0c580690c81f4ac-w944.jpg": {
+		"ft": 16384,
+		"iS": 123648,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-8c3a419f4eb463e5d0c580690c81f4ac-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-b462c6b208cd4d6b18b09ca43f746746-w640.jpg": {
+		"ft": 16384,
+		"iS": 68729,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-b462c6b208cd4d6b18b09ca43f746746-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-eb25b06b4512673c10656175b78a4349-w472.jpg": {
+		"ft": 16384,
+		"iS": 50269,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/poster-strange-meeting-freiraum-syndikat-2017-eb25b06b4512673c10656175b78a4349-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-06385f71612ef6d9229041e82a47b147-w75.jpg": {
+		"ft": 16384,
+		"iS": 3152,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-06385f71612ef6d9229041e82a47b147-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-0751c0a9f5cab03e529fc02f397afa9b-w944.jpg": {
+		"ft": 16384,
+		"iS": 62621,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-0751c0a9f5cab03e529fc02f397afa9b-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-3243d0e813955c611f6972bbcf8909f1-w1888.jpg": {
+		"ft": 16384,
+		"iS": 166422,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-3243d0e813955c611f6972bbcf8909f1-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-50e96760aa81bcf73df2ce55cd66cdda-w1280.jpg": {
+		"ft": 16384,
+		"iS": 83439,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-50e96760aa81bcf73df2ce55cd66cdda-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-5a0ae53ce157082441e0fd4d027c2a9a-w472.jpg": {
+		"ft": 16384,
+		"iS": 19786,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-5a0ae53ce157082441e0fd4d027c2a9a-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-68adde57ad3e09565c542adc56548610-w320.jpg": {
+		"ft": 16384,
+		"iS": 10612,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-68adde57ad3e09565c542adc56548610-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-d938d4f66766cb8b86c8dcd93d9944c7-w640.jpg": {
+		"ft": 16384,
+		"iS": 32297,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-d938d4f66766cb8b86c8dcd93d9944c7-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-1-web-f476af59cc869b14d0fa1bda50451372-w75.jpg": {
+		"ft": 16384,
+		"iS": 3136,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-1-web-f476af59cc869b14d0fa1bda50451372-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-62fc46fdc6968936fb614bf33d968874-w75.jpg": {
+		"ft": 16384,
+		"iS": 2165,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-62fc46fdc6968936fb614bf33d968874-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-2ffaba39e828296702669774aabc90b1-w1888.jpg": {
+		"ft": 16384,
+		"iS": 65034,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-2ffaba39e828296702669774aabc90b1-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-4dc01c93281e387df06b289cbf606c4a-w640.jpg": {
+		"ft": 16384,
+		"iS": 12060,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-4dc01c93281e387df06b289cbf606c4a-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-8ab78bddcb1c12d35eff3b5d5d73d484-w1280.jpg": {
+		"ft": 16384,
+		"iS": 31309,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-8ab78bddcb1c12d35eff3b5d5d73d484-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-a59b0916d4d02449dc487df2a1438e6e-w320.jpg": {
+		"ft": 16384,
+		"iS": 4370,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-a59b0916d4d02449dc487df2a1438e6e-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-a98d96b8d93126ca5529715b1d574cfb-w472.jpg": {
+		"ft": 16384,
+		"iS": 7779,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-a98d96b8d93126ca5529715b1d574cfb-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-e42fd128bbe6c3d86c1fb43cdf72d68c-w75.jpg": {
+		"ft": 16384,
+		"iS": 2172,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-e42fd128bbe6c3d86c1fb43cdf72d68c-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/media\/fotos\/pressefoto-2-web-f38e2739db1a8572ae02b6ab4d3c0495-w944.jpg": {
+		"ft": 16384,
+		"iS": 23093,
+		"oA": 0,
+		"oAP": "\/thumbs\/media\/fotos\/pressefoto-2-web-f38e2739db1a8572ae02b6ab4d3c0495-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-3db5e88a5ed7dbff55d06b7df2346d85-w1280.jpg": {
+		"ft": 16384,
+		"iS": 95481,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-3db5e88a5ed7dbff55d06b7df2346d85-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-56fbd2616c7974e49667d3c43e3ee57d-w944.jpg": {
+		"ft": 16384,
+		"iS": 70579,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-56fbd2616c7974e49667d3c43e3ee57d-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-8ec599ccded6024e1f586a5245f44eb8-w320.jpg": {
+		"ft": 16384,
+		"iS": 11846,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-8ec599ccded6024e1f586a5245f44eb8-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-9d000ca9da174f4aa54ebaf2f652b2f9-w1888.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-9d000ca9da174f4aa54ebaf2f652b2f9-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-a7ac2fbfa6bffcec150dacdffdb71d77-w640.jpg": {
+		"ft": 16384,
+		"iS": 35479,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-a7ac2fbfa6bffcec150dacdffdb71d77-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/mundauf-web-a9041e6472812266175b6e21a0765d76-w472.jpg": {
+		"ft": 16384,
+		"iS": 22226,
+		"oA": 0,
+		"oAP": "\/thumbs\/mundauf-web-a9041e6472812266175b6e21a0765d76-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000437-90f8a3ceee8f80b55572400444ce9d25-w400.jpg": {
+		"ft": 16384,
+		"iS": 29196,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000437-90f8a3ceee8f80b55572400444ce9d25-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000437-ab1bdf753ba391f87b8cb09c67addffb-w75.jpg": {
+		"ft": 16384,
+		"iS": 2983,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000437-ab1bdf753ba391f87b8cb09c67addffb-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000466-65b5c779a4e9bcfb94cb16e6c47f274b-w400.jpg": {
+		"ft": 16384,
+		"iS": 27303,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000466-65b5c779a4e9bcfb94cb16e6c47f274b-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000466-ae8d4a5be138d540e22c5de7a3e4dbfe-w75.jpg": {
+		"ft": 16384,
+		"iS": 2818,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000466-ae8d4a5be138d540e22c5de7a3e4dbfe-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000467-42cd345830dc30e73aba4d3867b02d82-w400.jpg": {
+		"ft": 16384,
+		"iS": 30241,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000467-42cd345830dc30e73aba4d3867b02d82-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000467-e82a8dc2c7df00877c083d6982f60307-w75.jpg": {
+		"ft": 16384,
+		"iS": 2916,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000467-e82a8dc2c7df00877c083d6982f60307-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000473-559a6ceb6c3464320c1ac0f123f19663-w75.jpg": {
+		"ft": 16384,
+		"iS": 2452,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000473-559a6ceb6c3464320c1ac0f123f19663-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000473-5667ab8714c1cca8c20d034959972b9b-w400.jpg": {
+		"ft": 16384,
+		"iS": 23739,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000473-5667ab8714c1cca8c20d034959972b9b-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000479-7a956d0bb42ac5f76abfe0bc1ed7e6dd-w75.jpg": {
+		"ft": 16384,
+		"iS": 2752,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000479-7a956d0bb42ac5f76abfe0bc1ed7e6dd-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000479-80de3bab31d7546238d6dd2c9f41a122-w400.jpg": {
+		"ft": 16384,
+		"iS": 27080,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000479-80de3bab31d7546238d6dd2c9f41a122-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000526-9fdd253d8e3adffd3b97580af0c4e5c9-w400.jpg": {
+		"ft": 16384,
+		"iS": 21350,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000526-9fdd253d8e3adffd3b97580af0c4e5c9-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/p1000526-fa5fefe2f2f440a25c3f42303566d1b0-w75.jpg": {
+		"ft": 16384,
+		"iS": 2887,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/p1000526-fa5fefe2f2f440a25c3f42303566d1b0-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/testbild-9137edd4a279429660f3be1d1160b7df-w75.jpg": {
+		"ft": 16384,
+		"iS": 3767,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/testbild-9137edd4a279429660f3be1d1160b7df-w75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/testbild-afb7cb9ba20ba8476882e249925dcdfa-w400.jpg": {
+		"ft": 16384,
+		"iS": 40969,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/testbild-afb7cb9ba20ba8476882e249925dcdfa-w400.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/testbild-dc08c399bffcb9f0c89771267c34fddd-w1216.jpg": {
+		"ft": 16384,
+		"iS": 104428,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/testbild-dc08c399bffcb9f0c89771267c34fddd-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/testbild-e1090d409bbed6205b7f79d6a7ea34d8-w608.jpg": {
+		"ft": 16384,
+		"iS": 40652,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/testbild-e1090d409bbed6205b7f79d6a7ea34d8-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/august-in-frankreich\/testbild-e3766498d43f9887cf2d2de15aeaeca7-w912.jpg": {
+		"ft": 16384,
+		"iS": 78533,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/august-in-frankreich\/testbild-e3766498d43f9887cf2d2de15aeaeca7-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-1e7d6d8e5c65a11c3410871312210d76-w608.jpg": {
+		"ft": 16384,
+		"iS": 24395,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-1e7d6d8e5c65a11c3410871312210d76-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-956735e55250317b6db3da4339bd8c67-w1216.jpg": {
+		"ft": 16384,
+		"iS": 72028,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-956735e55250317b6db3da4339bd8c67-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-d6faf6f38d84b9a85611fbef4c58a314-w912.jpg": {
+		"ft": 16384,
+		"iS": 51461,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/festival-moments-musicaux-2016\/prieure-3-d6faf6f38d84b9a85611fbef4c58a314-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-acd387e6cdeec82cd4b24fdd8a2bac9e-w608.jpg": {
+		"ft": 16384,
+		"iS": 74132,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-acd387e6cdeec82cd4b24fdd8a2bac9e-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-c4e3832b653b94252414c36b3cfae0e2-w1216.jpg": {
+		"ft": 16384,
+		"iS": 180539,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-c4e3832b653b94252414c36b3cfae0e2-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-faec6d7249b105e630a63ecff53f9027-w912.jpg": {
+		"ft": 16384,
+		"iS": 137818,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/januar-2017\/poster-strange-meeting-freiraum-syndikat-2017-faec6d7249b105e630a63ecff53f9027-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/webseite-online\/kreis-310c59bf8959774a259e8ae1c080430d-w1216.jpg": {
+		"ft": 16384,
+		"iS": 84811,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/webseite-online\/kreis-310c59bf8959774a259e8ae1c080430d-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/webseite-online\/kreis-a4131e953dfc93ab8560559a605b0241-w608.jpg": {
+		"ft": 16384,
+		"iS": 35435,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/webseite-online\/kreis-a4131e953dfc93ab8560559a605b0241-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/news\/webseite-online\/kreis-dbb1e575230b1823c7d9089d049d93e4-w912.jpg": {
+		"ft": 16384,
+		"iS": 65827,
+		"oA": 0,
+		"oAP": "\/thumbs\/news\/webseite-online\/kreis-dbb1e575230b1823c7d9089d049d93e4-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-0751c0a9f5cab03e529fc02f397afa9b-w944.jpg": {
+		"ft": 16384,
+		"iS": 62621,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-0751c0a9f5cab03e529fc02f397afa9b-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-3243d0e813955c611f6972bbcf8909f1-w1888.jpg": {
+		"ft": 16384,
+		"iS": 166422,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-3243d0e813955c611f6972bbcf8909f1-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-50e96760aa81bcf73df2ce55cd66cdda-w1280.jpg": {
+		"ft": 16384,
+		"iS": 83439,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-50e96760aa81bcf73df2ce55cd66cdda-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-5a0ae53ce157082441e0fd4d027c2a9a-w472.jpg": {
+		"ft": 16384,
+		"iS": 19786,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-5a0ae53ce157082441e0fd4d027c2a9a-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-68adde57ad3e09565c542adc56548610-w320.jpg": {
+		"ft": 16384,
+		"iS": 10612,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-68adde57ad3e09565c542adc56548610-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-1-web-d938d4f66766cb8b86c8dcd93d9944c7-w640.jpg": {
+		"ft": 16384,
+		"iS": 32297,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-1-web-d938d4f66766cb8b86c8dcd93d9944c7-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-2ffaba39e828296702669774aabc90b1-w1888.jpg": {
+		"ft": 16384,
+		"iS": 65034,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-2ffaba39e828296702669774aabc90b1-w1888.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-4dc01c93281e387df06b289cbf606c4a-w640.jpg": {
+		"ft": 16384,
+		"iS": 12060,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-4dc01c93281e387df06b289cbf606c4a-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-8ab78bddcb1c12d35eff3b5d5d73d484-w1280.jpg": {
+		"ft": 16384,
+		"iS": 31309,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-8ab78bddcb1c12d35eff3b5d5d73d484-w1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-a59b0916d4d02449dc487df2a1438e6e-w320.jpg": {
+		"ft": 16384,
+		"iS": 4370,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-a59b0916d4d02449dc487df2a1438e6e-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-a98d96b8d93126ca5529715b1d574cfb-w472.jpg": {
+		"ft": 16384,
+		"iS": 7779,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-a98d96b8d93126ca5529715b1d574cfb-w472.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/pressefoto-2-web-f38e2739db1a8572ae02b6ab4d3c0495-w944.jpg": {
+		"ft": 16384,
+		"iS": 23093,
+		"oA": 0,
+		"oAP": "\/thumbs\/pressefoto-2-web-f38e2739db1a8572ae02b6ab4d3c0495-w944.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/prieure-3-209c43cbae0344d4a4ca0b3c3ec3ab9a-w608.jpg": {
+		"ft": 16384,
+		"iS": 61594,
+		"oA": 0,
+		"oAP": "\/thumbs\/prieure-3-209c43cbae0344d4a4ca0b3c3ec3ab9a-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/prieure-3-d5ba08f4c5a778ec92ddd7757ef5df96-w912.jpg": {
+		"ft": 16384,
+		"iS": 136263,
+		"oA": 0,
+		"oAP": "\/thumbs\/prieure-3-d5ba08f4c5a778ec92ddd7757ef5df96-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/prieure-3-fa13c9e04e3514aca20706c34912fcf3-w1216.jpg": {
+		"ft": 16384,
+		"iS": 240145,
+		"oA": 0,
+		"oAP": "\/thumbs\/prieure-3-fa13c9e04e3514aca20706c34912fcf3-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-1ecc009360e603d53cb2652a75c7e03c-w1216.jpg": {
+		"ft": 16384,
+		"iS": 122882,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-1ecc009360e603d53cb2652a75c7e03c-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-28c3b55dd42f4f9ea5a43e5036881f92-w912.jpg": {
+		"ft": 16384,
+		"iS": 198667,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-28c3b55dd42f4f9ea5a43e5036881f92-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-606e1ddceca0a5449b3ce952a1d995b6-w912.jpg": {
+		"ft": 16384,
+		"iS": 96878,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-606e1ddceca0a5449b3ce952a1d995b6-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-a9212896ccdc9aaf89a9ab265ae7643c-w1216.jpg": {
+		"ft": 16384,
+		"iS": 303748,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-a9212896ccdc9aaf89a9ab265ae7643c-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-b0a3edbba0589788dc1ae4a27200e672-w608.jpg": {
+		"ft": 16384,
+		"iS": 106472,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-b0a3edbba0589788dc1ae4a27200e672-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-bdf9300c5508c7a4ebbf21a90b681008-w608.jpg": {
+		"ft": 16384,
+		"iS": 50179,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-bdf9300c5508c7a4ebbf21a90b681008-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-d200e122f465b818b1b2950d7322846d-w608.jpg": {
+		"ft": 16384,
+		"iS": 71150,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-d200e122f465b818b1b2950d7322846d-w608.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-d4b0597175f1233ec41ff0ba6b75e3c4-w912.jpg": {
+		"ft": 16384,
+		"iS": 137456,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-d4b0597175f1233ec41ff0ba6b75e3c4-w912.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/testbild-fe75a10e9874df9d011cc8d71639861f-w1216.jpg": {
+		"ft": 16384,
+		"iS": 215036,
+		"oA": 0,
+		"oAP": "\/thumbs\/testbild-fe75a10e9874df9d011cc8d71639861f-w1216.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-2c827870455c5a5543ddc0c52c2fc099-w512.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-2c827870455c5a5543ddc0c52c2fc099-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-5d9f3219a91112de43394e12ddf2e517-w160.jpg": {
+		"ft": 16384,
+		"iS": 6619,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-5d9f3219a91112de43394e12ddf2e517-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-7478bb75a040b833d19a22dec873633e-w320.jpg": {
+		"ft": 16384,
+		"iS": 11247,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-7478bb75a040b833d19a22dec873633e-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-8388568ff11d3977862241f7a122805a-w640.jpg": {
+		"ft": 16384,
+		"iS": 30802,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-8388568ff11d3977862241f7a122805a-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-a0efa88558d342a4e9dde9f71d800402-w160.jpg": {
+		"ft": 16384,
+		"iS": 3873,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-a0efa88558d342a4e9dde9f71d800402-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-dcb5629a959f82fd4ee325c1e2ce0b57-w320.jpg": {
+		"ft": 16384,
+		"iS": 20958,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-dcb5629a959f82fd4ee325c1e2ce0b57-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-e948e8471086464f3ada7a3f0073ce74-w256.jpg": {
+		"ft": 16384,
+		"iS": 14236,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/elisabeth-neuser\/elisabeth_neuser-e948e8471086464f3ada7a3f0073ce74-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-32b21ea416891d30f83920266e9195c5-w160.jpg": {
+		"ft": 16384,
+		"iS": 3703,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-32b21ea416891d30f83920266e9195c5-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-39bc8d4b68cd4bfc869ebac76ffff841-w320.jpg": {
+		"ft": 16384,
+		"iS": 19680,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-39bc8d4b68cd4bfc869ebac76ffff841-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-3c7e32f11365a14f7cb92adcb03a5f4c-w256.jpg": {
+		"ft": 16384,
+		"iS": 13388,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-3c7e32f11365a14f7cb92adcb03a5f4c-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-542d46d2e0c4115d8bc67fae7636dbb1-w160.jpg": {
+		"ft": 16384,
+		"iS": 6315,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-542d46d2e0c4115d8bc67fae7636dbb1-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-671c2c7b6c912f118d6c354958a6b1e2-w640.jpg": {
+		"ft": 16384,
+		"iS": 28224,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-671c2c7b6c912f118d6c354958a6b1e2-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-67f10a404c347993a0c43fe401bd61d0-w320.jpg": {
+		"ft": 16384,
+		"iS": 10399,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-67f10a404c347993a0c43fe401bd61d0-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-c608470cc16da4f3d475ed1fef084bf9-w512.jpg": {
+		"ft": 16384,
+		"iS": 45821,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/friederike-vollert\/friederike_vollert-c608470cc16da4f3d475ed1fef084bf9-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-5597a7ec3389234a3f99064392dcb214-w160.jpg": {
+		"ft": 16384,
+		"iS": 3257,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-5597a7ec3389234a3f99064392dcb214-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-600c0b35cd5fcb523d38b2ffd4293f47-w320.jpg": {
+		"ft": 16384,
+		"iS": 14595,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-600c0b35cd5fcb523d38b2ffd4293f47-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-783056320e103ed9c34134a482d4ee42-w512.jpg": {
+		"ft": 16384,
+		"iS": 30659,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-783056320e103ed9c34134a482d4ee42-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-98780a222fed7dde341b4da022d3fdf5-w640.jpg": {
+		"ft": 16384,
+		"iS": 19325,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-98780a222fed7dde341b4da022d3fdf5-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-e5767706ae285c3534360e393f434cd9-w160.jpg": {
+		"ft": 16384,
+		"iS": 5338,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-e5767706ae285c3534360e393f434cd9-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-f00db44d43a2bfad57c0951f193eb119-w320.jpg": {
+		"ft": 16384,
+		"iS": 8172,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-f00db44d43a2bfad57c0951f193eb119-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-f2813af7d3776d19691cecca5cd61d74-w256.jpg": {
+		"ft": 16384,
+		"iS": 10421,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/lukas-dreyer\/lukas_dreyer-f2813af7d3776d19691cecca5cd61d74-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-27ad306c2530133d4affebbf6daae28c-w512.jpg": {
+		"ft": 16384,
+		"iS": 15903,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-27ad306c2530133d4affebbf6daae28c-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-3a54662dfe549f3f31cc7cb3b5f359b4-w320.jpg": {
+		"ft": 16384,
+		"iS": 7544,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-3a54662dfe549f3f31cc7cb3b5f359b4-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-3a660eb7a51ac22e26e40e0e76d7ee37-w256.jpg": {
+		"ft": 16384,
+		"iS": 10172,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-3a660eb7a51ac22e26e40e0e76d7ee37-w256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-54a36b40774a4adf92b6ed0c12beac1c-w512.jpg": {
+		"ft": 16384,
+		"iS": 32694,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-54a36b40774a4adf92b6ed0c12beac1c-w512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-63adf271b98334201699190d2507fb58-w160.jpg": {
+		"ft": 16384,
+		"iS": 4981,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-63adf271b98334201699190d2507fb58-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-94d16fde4894c02c22200252e4db47cf-w640.jpg": {
+		"ft": 16384,
+		"iS": 18960,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-94d16fde4894c02c22200252e4db47cf-w640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-b445c9ce3502043b52ae5d9cd7fcd920-w320.jpg": {
+		"ft": 16384,
+		"iS": 14458,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-b445c9ce3502043b52ae5d9cd7fcd920-w320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-e30dd081c0442c714bb444f6e2d4b3f2-w160.jpg": {
+		"ft": 16384,
+		"iS": 2959,
+		"oA": 0,
+		"oAP": "\/thumbs\/ueber-uns\/markus-fleischer\/markus_fleischer-e30dd081c0442c714bb444f6e2d4b3f2-w160.jpg",
+		"oF": 0,
+		"opt": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	"\/assets\/js\/main.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/helpers\/_scrollTo.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_klaenge.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_main_header.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_pagenav.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_ensemble.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_mitglied.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_kalender.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_startseite.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_hoerproben.js",
+			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_jahr.js",
+			"position": 9,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"position": 10,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_error.js",
+			"position": 11,
+			"type": 0
+			}
+		]
+	},
+"projectAttributes": {
+	"creationDate": 506182078,
+	"displayValue": "freiraumsyndikat.com",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-obama"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/kirby, \/panel",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="42px" height="39px" viewBox="0 0 42 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>seperator</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Über-uns" sketch:type="MSArtboardGroup" transform="translate(-491.000000, -820.000000)" fill="#EEEEEE">
-            <path d="M494.880002,856.991498 C493.365047,857.48285 492.056757,858.039126 491,858.646028 L491,820 L500,820 L500,855.726512 C500.648117,855.607032 501.315393,855.496935 502,855.396801 L502,820 L511,820 L511,854.709814 C509.399173,854.730722 507.838797,854.801602 506.333815,854.917687 C501.910986,855.25884 497.966564,855.99042 494.880002,856.991498 Z M522,855.396811 L522,820 L513,820 L513,854.709817 C516.201654,854.751639 519.241517,854.993343 522,855.396811 Z M533,858.646031 L533,820 L524,820 L524,855.726522 C527.766844,856.420932 530.886488,857.432232 533,858.646031 Z" id="seperator" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="42" height="39" viewBox="0 0 42 39" xmlns="http://www.w3.org/2000/svg"><title>seperator</title><path d="M3.88 36.991c-1.515.492-2.823 1.048-3.88 1.655V0h9v35.727c.648-.12 1.315-.23 2-.33V0h9v34.71c-1.6.02-3.161.092-4.666.208-4.423.34-8.367 1.072-11.454 2.073zM31 35.397V0h-9v34.71c3.202.042 6.242.283 9 .687zm11 3.249V0h-9v35.727c3.767.694 6.886 1.705 9 2.919z" fill="#EEE" fill-rule="evenodd"/></svg>

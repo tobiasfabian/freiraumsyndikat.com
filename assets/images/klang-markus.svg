@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="38px" height="39px" viewBox="0 0 38 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>klang-markus</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Termine" sketch:type="MSArtboardGroup" transform="translate(-694.000000, -252.000000)" fill="#FDF200">
-            <g id="Page-1" sketch:type="MSLayerGroup" transform="translate(91.000000, 177.000000)">
-                <path d="M614.563539,80.860925 L607,89.8996568 L630.275921,98 L614.563539,80.860925 Z M609.464123,106.783461 L618.047761,120 L629.266453,101.497086 L609.464123,106.783461 Z M632.180423,96.6361606 L622.552797,77.450128 L638,76 L632.180423,96.6361606 Z" id="klang-markus" sketch:type="MSShapeGroup" transform="translate(622.500000, 98.000000) rotate(-67.000000) translate(-622.500000, -98.000000) "></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="38" height="39" viewBox="0 0 38 39" xmlns="http://www.w3.org/2000/svg"><title>klang-markus</title><path d="M.622 23.609l5.365 10.494 16.551-18.26L.622 23.608zm21.87 14.823l15.52-2.738-12.65-17.556-2.87 20.294zm-.465-24.876L.604 14.922 5.305.136l16.722 13.42z" fill="#FDF200" fill-rule="evenodd"/></svg>

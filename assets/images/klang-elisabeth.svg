@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>klang-elisabeth</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Termine" sketch:type="MSArtboardGroup" transform="translate(-251.000000, -328.000000)" fill="#24D9C8">
-            <g id="Page-1" sketch:type="MSLayerGroup" transform="translate(91.000000, 177.000000)">
-                <path d="M160,182.555859 L168.724085,196.85691 L188.700499,171.939706 L160,182.555859 Z M188.431276,168.978118 L160.902211,171.939706 L165.39473,151 L188.431276,168.978118 Z M190.084189,201 L210,196.856625 L192.611008,173.423775 L190.084189,201 Z" id="klang-elisabeth" sketch:type="MSShapeGroup"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><title>klang-elisabeth</title><path d="M0 31.556l8.724 14.3L28.7 20.94 0 31.556zm28.431-13.578L.902 20.94 5.395 0 28.43 17.978zM30.084 50L50 45.857 32.611 22.424 30.084 50z" fill="#24D9C8" fill-rule="evenodd"/></svg>

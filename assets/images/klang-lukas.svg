@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="57px" height="46px" viewBox="0 0 57 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>klang-lukas</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Termine" sketch:type="MSArtboardGroup" transform="translate(-546.000000, -430.000000)" fill="#89F86D">
-            <g id="Page-1" sketch:type="MSLayerGroup" transform="translate(91.000000, 177.000000)">
-                <path d="M510.955045,283.936945 L456.393133,272.581871 L469.743287,284.979705 L510.955045,283.936945 Z M464.635274,253 L472.645155,269.105656 L512,282.894186 L464.635274,253 Z M455,291.352748 L471.368363,299 L510.374608,285.675211 L455,291.352748 Z" id="klang-lukas" sketch:type="MSShapeGroup"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="57" height="46" viewBox="0 0 57 46" xmlns="http://www.w3.org/2000/svg"><title>klang-lukas</title><path d="M55.955 30.937L1.393 19.582l13.35 12.398 41.212-1.043zM9.635 0l8.01 16.106L57 29.894 9.635 0zM0 38.353L16.368 46l39.007-13.325L0 38.353z" fill="#89F86D" fill-rule="evenodd"/></svg>
