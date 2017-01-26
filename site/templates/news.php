@@ -26,14 +26,14 @@
   <?php if($new_eintraege->pagination()->hasPages()): ?>
   <nav class="pagination">
     <h1 hidden>Pagination</h1>
-    <?php if($new_eintraege->pagination()->hasNextPage()): ?>
-    <a class="pagination--previous" rel="prev" href="<?= $new_eintraege->pagination()->nextPageURL() ?>">
-      <?=l::get('nächste Seite')?>
-    </a>
-    <?php endif ?>
     <?php if($new_eintraege->pagination()->hasPrevPage()): ?>
     <a class="pagination--next" rel="next" href="<?= $new_eintraege->pagination()->prevPageURL() ?>">
       <?=l::get('vorherige Seite')?>
+    </a>
+    <?php endif ?>
+    <?php if($new_eintraege->pagination()->hasNextPage()): ?>
+    <a class="pagination--previous" rel="prev" href="<?= $new_eintraege->pagination()->nextPageURL() ?>">
+      <?=l::get('nächste Seite')?>
     </a>
     <?php endif ?>
   </nav>
