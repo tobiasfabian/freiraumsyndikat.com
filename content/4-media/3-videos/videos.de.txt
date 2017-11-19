@@ -2,11 +2,13 @@ Title: Videos
 
 ----
 
-Meta-description: Hörproben von Freiraum Syndikat – Baroque Jazz Chamber Group
+Meta-description: Hörproben und Videos von Freiraum Syndikat – Baroque Jazz Chamber Group
 
 ----
 
 Youtube-ids: 
 
+- 
+  link: yhgpx0dEWjA
 - 
   link: VPPcY1pKWYI

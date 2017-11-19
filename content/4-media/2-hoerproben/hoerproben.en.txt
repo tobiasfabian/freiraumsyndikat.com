@@ -10,6 +10,12 @@ Soundcloud-links:
 
 - 
   link: >
+    https://soundcloud.com/lukasdreyer/it-doesnt-end-like-that?in=lukasdreyer/sets/la-bettleropera
+- 
+  link: >
+    https://soundcloud.com/lukasdreyer/abschied-labettleropera?in=lukasdreyer/sets/la-bettleropera
+- 
+  link: >
     https://soundcloud.com/lukasdreyer/radiohead-exit-music-live-played-by-freiraum-syndikat?in=lukasdreyer/sets/freiraum-syndikat-baroque-jazz
 - 
   link: >
@@ -17,3 +23,7 @@ Soundcloud-links:
 - 
   link: >
     https://soundcloud.com/lukasdreyer/nightclub-astror-piazzolla-freiraum-syndikat-live?in=lukasdreyer/sets/freiraum-syndikat-baroque-jazz
+
+----
+
+Meta-description: Hörproben von Freiraum Syndikat – Baroque Jazz Chamber Group

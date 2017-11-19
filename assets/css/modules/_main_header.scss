@@ -8,7 +8,7 @@
   .center {
     padding-bottom: 0;
   }
-  @media (min-height: 50rem) {
+  @media (min-height: 50em) {
     position: fixed;
     top: 0;
     right: 0;
@@ -29,7 +29,7 @@
   img {
     width: 100%;
   }
-  @media (max-width: 46rem) {
+  @media (max-width: 46em) {
     width: 8rem;
   }
 }
@@ -74,13 +74,13 @@
       color: $color--link;
     }
   }
-  @media (max-width: 52rem) {
+  @media (max-width: 52em) {
     padding-left: 10.5rem;
   }
-  // @media (max-width: 46rem) {
+  // @media (max-width: 46em) {
   //   padding-left: 10.5rem;
   // }
-  @media (max-width: 36rem) {
+  @media (max-width: 36em) {
     width: 16rem;
   }
 }
@@ -102,7 +102,7 @@
   img {
     height: 0.85rem;
   }
-  @media (max-width: 34rem) {
+  @media (max-width: 34em) {
     padding-left: 0.2rem;
     a {
       padding-right: 0.3rem;
@@ -142,24 +142,24 @@
   top: 8rem;
   width: 1.5rem;
   pointer-events: none;
-  @media (max-width: 48rem) {
+  @media (max-width: 48em) {
     width: 1.2rem;
   }
-  @media (max-width: 62rem) {
+  @media (max-width: 62em) {
     position: absolute;
     right: 0.5rem;
     top: 7.5rem;
   }
-  @media (max-width: 46rem) {
+  @media (max-width: 46em) {
     display: none;
   }
-  @media (max-height: 35rem) {
+  @media (max-height: 35em) {
     position: absolute;
   }
 }
 
 
-@media (max-width: 34rem) {
+@media (max-width: 34em) {
   .main_header {
     position: fixed;
     top: 0;

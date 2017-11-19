@@ -15,10 +15,10 @@
   &:focus, &:hover {
     text-decoration: none;
   }
-  @media (max-width: 46rem) {
+  @media (max-width: 46em) {
     padding: 0 2rem;
   }
-  @media (max-width: 24rem) {
+  @media (max-width: 24em) {
     width: 100%;
   }
 }
@@ -41,13 +41,13 @@
       display: block;
     }
   }
-  @media (max-width: 46rem) {
+  @media (max-width: 46em) {
     padding-right: 1.2rem;
     &::after {
       right: 1.2rem;
     }
   }
-  @media (max-width: 34rem) {
+  @media (max-width: 34em) {
     &::after {
       display: block;
     }
@@ -69,13 +69,13 @@
       display: block;
     }
   }
-  @media (max-width: 46rem) {
+  @media (max-width: 46em) {
     padding-left: 1.2rem;
     &::after {
       left: 1.2rem;
     }
   }
-  @media (max-width: 34rem) {
+  @media (max-width: 34em) {
     &::before {
       display: block;
     }

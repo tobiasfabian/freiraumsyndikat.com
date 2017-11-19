@@ -1,7 +1,7 @@
 .galerie {
   margin: 0 auto;
   max-width: 59rem;
-  @media (max-width: 26rem) {
+  @media (max-width: 26em) {
     margin-right: -1rem;
     margin-left: -1rem;
   }
@@ -25,10 +25,10 @@
       margin: 0 auto;
       max-width: 100%;
       max-height: calc(100vh - 7rem);
-      @media (max-height: 50rem) {
+      @media (max-height: 50em) {
         max-height: 100vh;
       }
-      @media (max-width: 26rem) {
+      @media (max-width: 26em) {
         max-height: none;
       }
     }
@@ -38,13 +38,13 @@
     display: flex;
     padding: 0 1rem;
     justify-content: space-between;
-    @media (max-width: 36rem) {
+    @media (max-width: 36em) {
       display: block;
     }
     p {
       margin: 1rem 0;
       max-width: 50%;
-      @media (max-width: 36rem) {
+      @media (max-width: 36em) {
         max-width: none;
       }
     }
@@ -56,7 +56,7 @@
   max-width: calc(50% - 2rem);
   font-size: 0.8em;
   text-align: right;
-  @media (max-width: 36rem) {
+  @media (max-width: 36em) {
     max-width: none;
     text-align: left;
   }
@@ -69,14 +69,14 @@
     display: flex;
     width: 100%;
     align-items: flex-end;
-    @media (max-width: 36rem) {
+    @media (max-width: 36em) {
       display: block;
     }
   }
   picture {
     margin: 0;
     max-width: 50%;
-    @media (max-width: 36rem) {
+    @media (max-width: 36em) {
       max-width: 100%;
     }
   }
@@ -85,7 +85,7 @@
     margin: 1rem 2rem;
     width: calc(50% - 4rem);
     padding: 0;
-    @media (max-width: 36rem) {
+    @media (max-width: 36em) {
       margin: 0;
       padding: 0 1rem;
       width: auto;
@@ -108,7 +108,7 @@
 
 .galerie--foto-rechts {
   text-align: right;
-  @media (max-width: 36rem) {
+  @media (max-width: 36em) {
     text-align: left;
   }
   figure {

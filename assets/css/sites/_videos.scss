@@ -8,10 +8,10 @@
   li {
     margin-bottom: 6rem;
     height: 33.2rem;
-    @media (max-width: 61rem) {
+    @media (max-width: 61em) {
       height: calc((100vw - 2rem) * 9 / 16);
     }
-    @media (max-width: 26rem) {
+    @media (max-width: 26em) {
       margin-right: -1rem;
       margin-left: -1rem;
       height: calc(100vw  * 9 / 16);

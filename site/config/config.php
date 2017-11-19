@@ -15,7 +15,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 c::set('thumbs.filename', '{safeName}-{hash}-w{width}.{extension}');
 
-// c::set('cache',true);
+c::set('cache',true);
 
 c::set('languages', array(
   array(

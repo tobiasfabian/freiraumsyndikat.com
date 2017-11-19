@@ -1,15 +1,15 @@
 .kalender {
   max-width: 37rem;
   padding-left: 15rem;
-  @media (max-width: 52rem) {
+  @media (max-width: 52em) {
     padding-right: 3rem;
     padding-left: 11rem;
   }
-  @media (max-width: 44rem) {
+  @media (max-width: 44em) {
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  @media (max-width: 24rem) {
+  @media (max-width: 24em) {
     padding-right: 0;
     padding-left: 0;
   }
@@ -27,13 +27,13 @@
   flex: 0 0 9rem;
   font-size: 1.5rem;
   font-weight: 700;
-  @media (max-width: 52rem) {
+  @media (max-width: 52em) {
     flex-basis: 6rem;
   }
-  @media (max-width: 42rem) {
+  @media (max-width: 42em) {
     flex-basis: 4rem;
   }
-  @media (max-width: 22rem) {
+  @media (max-width: 22em) {
     flex-basis: 3rem;
   }
 }

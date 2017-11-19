@@ -1,6 +1,6 @@
 title: Startseite
 pages: false
-files: false
+files: true
 options:
   status: false
 fields:
@@ -8,17 +8,24 @@ fields:
     label: Title
     type:  text
   meta_description: meta_description
-  youtube_id:
-    label: YouTube Id
-    placeholder: VPPcY1pKWYI
-    requried: true
-    validate:
-      min: 11
-      max: 11
-      - alphanum
-    help: >
-      youtu.be/<strong>VPPcY1pKWYI</strong><br>
-      www.youtube.com/watch?v=<strong>VPPcY1pKWYI</strong>
-  button_text:
-    label: Button Text
-    type:  text
+  cites:
+    label: Zitate
+    type:  structure
+    fields:
+      text:
+        label: Text
+        type:  textarea
+        buttons: false
+      source:
+        label: Quelle
+        type:  text
+      link:
+        label: Link
+        type:  page
+  animated-images:
+    label: Bilder
+    type: structure
+    fields:
+      image:
+        label: Bild
+        type:  image

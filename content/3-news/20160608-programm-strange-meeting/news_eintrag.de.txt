@@ -18,4 +18,4 @@ Auch in diesem Programm wird Musik von Johann-Sebastian Bach, Astor Piazzolla, P
 Eigene Kompositionen ergänzen das farbige Programm mit den internationalen vier Solisten in außergewöhnlicher Formation. Dabei werden die vielseitigen Kombinationsmöglichkeiten in Besetzung und musikalischen Stilen zum Konzept einer klassischen Band . 
 Die Begegnung und Kommunikation mit dem Publikum in offener Haltung ist den Musikern vertraut.
 
-(link: http://freiraumsyndikat.com/termine/2016 text: zu den Konzertinformationen:)
+(link: http://freiraumsyndikat.com/termine/2016 text: zu den Konzertinformationen: popup: true)
