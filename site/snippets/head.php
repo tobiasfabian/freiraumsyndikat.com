@@ -10,8 +10,8 @@
   <title><?= $page->title() . ' – ' . $site->title()  ?></title>
   <?php endif ?>
 
-  <link rel="stylesheet" href="<?= url('assets/css/style.css') ?>">
-  <script src="<?= url('assets/js/main-min.js') ?>" defer></script>
+  <link rel="stylesheet" href="<?= url('assets/css/style-v2.css') ?>">
+  <script src="<?= url('assets/js/main-v2-min.js') ?>" defer></script>
   <?php if ($soundcloud_api): ?>
   <script src="//w.soundcloud.com/player/api.js"></script>
   <?php endif ?>

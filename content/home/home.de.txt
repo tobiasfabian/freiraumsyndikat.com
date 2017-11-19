@@ -40,3 +40,13 @@ Cites:
     Udo Badelt (Tagesspiegel.de), 20.
     Oktober 2017
   link: ueber-uns
+- 
+  text: >
+    Doch was wären sie alle, ohne das
+    Freiraum Syndikat, diese vier
+    exzellenten Musiker, die in ihrem
+    Musik-Repertoire vier Jahrhunderte
+    umfassen, die aus Klassik, Jazz, Barock
+    und Moderne immer wieder Neues schaffen
+  source: Barbara Hoppe, 21. Oktober 2017
+  link: ueber-uns

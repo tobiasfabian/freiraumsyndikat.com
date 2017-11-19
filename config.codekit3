@@ -368,21 +368,21 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/style.css": {
+	"\/assets\/css\/style-v2.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/style-min.css",
+		"oA": 2,
+		"oAP": "\/assets\/css\/style-v2-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/assets\/css\/style.css.map": {
+	"\/assets\/css\/style-v2.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/css\/style.css.map",
+		"oAP": "\/assets\/css\/style-v2.css.map",
 		"oF": 0
 		},
 	"\/assets\/css\/style.scss": {
@@ -393,8 +393,8 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 0,
+		"oAP": "\/assets\/css\/style-v2.css",
+		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
@@ -832,29 +832,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/assets\/js\/min\/main-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/main-min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/main-min.js.map",
-		"oF": 0
-		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/main-min.js",
+		"oAP": "\/assets\/js\/main-v2-min.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0

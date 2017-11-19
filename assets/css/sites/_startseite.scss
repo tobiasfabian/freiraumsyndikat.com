@@ -2,6 +2,10 @@
   min-height: calc(100vh - 64px);
   padding-bottom: 1rem;
   background-color: black;
+
+  @media (min-height: 24rem) {
+    overflow: hidden;
+  }
 }
 
 
@@ -167,15 +171,28 @@
   font-weight: 500;
   text-shadow: 0 0.1em 1em black;
   color: $color--white;
-  animation-name: appear;
-  animation-fill-mode: backwards;
-  animation-duration: 8s;
-  animation-delay: 1s;
-  animation-timing-function: ease-in-out;
+  transition-property: opacity;
+  transition-duration: $transition-duration * 2;
+  transition-delay: $transition-duration * 2;
 
   &:focus,
   &:hover {
     text-decoration: none;
+  }
+
+  &:nth-of-type(1) {
+    animation-name: appear;
+    animation-fill-mode: backwards;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  &.is-hidden {
+    opacity: 0;
+    transition-delay: 0s;
+    pointer-events: none;
   }
 
   p {
@@ -193,6 +210,7 @@
   }
 
   cite {
+    display: block;
     font-size: 0.8em;
   }
 

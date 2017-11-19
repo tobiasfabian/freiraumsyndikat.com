@@ -5,22 +5,26 @@
 <h1 hidden><?= $site->title()->html() ?></h1>
 
 <main class="startseite--images">
-  <?php foreach($page->cites()->toStructure() as $item): ?>
-    <?php if ($item->link()->toPage()): ?>
-      <a class="startseite--cite" href="<?= $item->link()->toPage()->url() ?>">
-    <?php else: ?>
-      <div class="startseite--cite">
-    <?php endif; ?>
-      <blockquote>
-        <?= $item->text()->kt() ?>
-        <cite><?= $item->source() ?></cite>
-      </blockquote>
-    <?php if ($item->link()->toPage()): ?>
-      </a>
-    <?php else: ?>
-      </div>
-    <?php endif; ?>
-  <?php endforeach; ?>
+  <div>
+    <?php $i = 0; ?>
+    <?php foreach($page->cites()->toStructure() as $item): ?>
+      <?php if ($item->link()->toPage()): ?>
+        <a class="startseite--cite <?= $i !== 0 ? 'is-hidden' : '' ?>" href="<?= $item->link()->toPage()->url() ?>">
+      <?php else: ?>
+        <div class="startseite--cite <?= $i !== 0 ? 'is-hidden' : '' ?>">
+      <?php endif; ?>
+        <blockquote>
+          <?= $item->text()->kt() ?>
+          <cite><?= $item->source() ?></cite>
+        </blockquote>
+      <?php if ($item->link()->toPage()): ?>
+        </a>
+      <?php else: ?>
+        </div>
+      <?php endif; ?>
+      <?php $i++; ?>
+    <?php endforeach; ?>
+  </div>
   <?php foreach($page->animated_images()->toStructure() as $item): ?>
     <?php if ($image = $item->image()->toFile()): ?>
       <?php
@@ -40,9 +44,5 @@
   <?php endforeach; ?>
   <?php snippet('klaenge') ?>
 </main>
-
-<div class="startseite--button">
-  <button type="button"><?= $page->button_text()->html() ?></button>
-</div>
 
 <?php snippet('foot') ?>
