@@ -23,10 +23,10 @@
 
 
 .kalender--eintrag--datum {
-  margin-top: -0.12rem;
+  margin-top: -0.15rem;
   flex: 0 0 9rem;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   @media (max-width: 52em) {
     flex-basis: 6rem;
   }
@@ -41,7 +41,7 @@
 
 .kalender--eintrag--text {
   strong {
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 

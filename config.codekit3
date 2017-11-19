@@ -550,6 +550,44 @@
 		"oAP": "\/assets\/fonts\/atzur_regular.woff2",
 		"oF": 0
 		},
+	"\/assets\/fonts\/editor\/32D71C_0_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/editor\/32D71C_0_0.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/editor\/32D71C_0_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/editor\/32D71C_0_0.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/editor\/32D71C_0_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/editor\/32D71C_0_0.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/editor\/32D71C_0_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/editor\/32D71C_0_0.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/editor\/MyFontsWebfontsKit.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/editor\/MyFontsWebfontsKit-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/fonts\/webfontkit-20160221-152320\/generator_config.txt": {
 		"cB": 0,
 		"ft": 8192,

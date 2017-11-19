@@ -1,6 +1,6 @@
 .startseite {
   min-height: calc(100vh - 64px);
-  padding-bottom: 0;
+  padding-bottom: 1rem;
   background-color: black;
 }
 
@@ -163,8 +163,8 @@
   top: 7 + 4rem; // 7rem is height of header
   display: block;
   max-width: 33rem;
-  padding-bottom: 1rem;
-  font-weight: 700;
+  margin-bottom: 1rem;
+  font-weight: 500;
   text-shadow: 0 0.1em 1em black;
   color: $color--white;
   animation-name: appear;
@@ -172,6 +172,11 @@
   animation-duration: 8s;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
 
   p {
     font-size: 1.5rem;
@@ -182,9 +187,18 @@
       content: '«';
     }
   }
+  &:focus p,
+  &:hover p {
+    text-decoration: underline;
+  }
 
   cite {
     font-size: 0.8em;
+  }
+
+  &:focus cite,
+  &:hover cite {
+    text-decoration: none;
   }
 
   @media (max-width: 64em) {

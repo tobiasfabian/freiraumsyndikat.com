@@ -5,9 +5,9 @@
 
 body {
   box-sizing: border-box;
-  font: 1.125em/24px 'Atzur', sans-serif;
-  font: 1.125em/1.5rem 'Atzur', sans-serif;
-  letter-spacing: 0.005em;
+  font: 1em/26px 'Editor', sans-serif;
+  font: 1em/1.625rem 'Editor', sans-serif;
+  // letter-spacing: 0.005em;
   color: $color--black;
   -webkit-text-size-adjust:none;
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -33,14 +33,14 @@ a {
 h1 {
   margin: 2rem 0;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2.7rem;
 }
 h2 {
   margin: 1.5rem 0;
   width: 50%;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   @media (max-width: 28em) {
     width: 75%;
   }
@@ -49,7 +49,7 @@ h3 {
   margin: 1.5rem 0;
   width: 50%;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 500;
   @media (max-width: 28em) {
     width: 75%;
   }
@@ -57,7 +57,7 @@ h3 {
 h4 {
   margin: 0;
   width: 50%;
-  font-weight: 700;
+  font-weight: 500;
   @media (max-width: 28em) {
     width: 75%;
   }

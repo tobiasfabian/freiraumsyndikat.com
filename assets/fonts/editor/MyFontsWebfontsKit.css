@@ -1,21 +1,21 @@
 /**
  * @license
  * MyFonts Webfont Build ID 3331868, 2017-01-16T07:25:40-0500
- *
+ * 
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
+ * Agreement(s) entered into by the website owner. All other parties are 
  * explicitly restricted from using the Licensed Webfonts(s).
- *
+ * 
  * You may obtain a valid license at the URLs below.
- *
+ * 
  * Webfont: Editor-Medium by Indian Type Foundry
  * URL: http://www.myfonts.com/fonts/indian-type-foundry/editor/medium/
  * Copyright: Copyright 2016 Indian Type Foundry
  * Licensed pageviews: 10,000
- *
- *
+ * 
+ * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3331868
- *
+ * 
  * © 2017 MyFonts Inc
 */
 
@@ -23,13 +23,6 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/32d71c");
 
-
-@font-face {
-  font-family: 'Editor';
-  font-weight: 500;
-  src: url('../fonts/editor/32D71C_0_0.eot');
-  src: url('../fonts/editor/32D71C_0_0.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/editor/32D71C_0_0.woff2') format('woff2'),
-       url('../fonts/editor/32D71C_0_0.woff') format('woff'),
-       url('../fonts/editor/32D71C_0_0.ttf') format('truetype');
-}
+  
+@font-face {font-family: 'Editor-Medium';src: url('webfonts/32D71C_0_0.eot');src: url('webfonts/32D71C_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32D71C_0_0.woff2') format('woff2'),url('webfonts/32D71C_0_0.woff') format('woff'),url('webfonts/32D71C_0_0.ttf') format('truetype');}
+ 
