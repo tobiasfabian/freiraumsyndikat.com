@@ -3,7 +3,7 @@
   padding-bottom: 1rem;
   background-color: black;
 
-  @media (min-height: 24rem) {
+  @media (min-height: 24rem) and (min-width: 33.9999em) {
     overflow: hidden;
   }
 }
@@ -211,7 +211,9 @@
 
   cite {
     display: block;
+    margin-top: 0.5rem;
     font-size: 0.8em;
+    line-height: 1.5;
   }
 
   &:focus cite,
@@ -224,8 +226,8 @@
     top: 7 + 2rem; // 7rem is height of header
   }
   @media (max-width: 34em) {
-    position: relative;
-    top: 4rem;
+    // position: relative;
+    top: 7rem;
     left: auto;
     right: auto;
     padding-left: 1rem;

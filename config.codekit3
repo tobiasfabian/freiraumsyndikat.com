@@ -832,6 +832,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/main-v2-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/main-v2-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
