@@ -1,6 +1,6 @@
 <header class="main_header">
   <div class="center">
-    <a class="main_header--logo" href="<?= $site->url() ?>">
+    <a class="main_header--logo" href="<?= $site->homePage()->url() ?>">
       <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>">
     </a>
     <button class="main_header--hamburger" type="button" aria-label="<?= l::get('Menü öffnen') ?>" data-label-close="<?= l::get('Menü schließen') ?>" data-label-open="<?= l::get('Menü öffnen') ?>">
@@ -12,9 +12,18 @@
       <ul class="main_header--menu">
         <?php foreach($site->pages()->visible() as $item): ?>
         <li>
-          <a <?= $item->isOpen() ? 'class="active"' : null ?> href="<?= $item->url() ?>">
-            <?= $item->title() ?>
-          </a>
+          <?php if ($item->id() == 'ueber-uns'): ?>
+            <a class="is-about <?= $item->isOpen() ? 'active' : '' ?>" href="<?= $item->url() ?>">
+              <?= str::split($item->title(), ' ')[0] ?>
+            </a>
+            <a class="is-us <?= $item->isOpen() ? 'active' : '' ?>" href="<?= $item->url() ?>#musiker">
+              <?= str::split($item->title(), ' ')[1] ?>
+            </a>
+          <?php else: ?>
+            <a <?= $item->isOpen() ? 'class="active"' : null ?> href="<?= $item->url() ?>">
+              <?= $item->title() ?>
+            </a>
+          <?php endif; ?>
         </li>
         <?php endforeach ?>
         <li class="main_header--menu--social_media">

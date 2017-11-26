@@ -9,9 +9,9 @@
     var element = document.getElementById(hash);
     var top = element.offsetTop;
     if (window.matchMedia('(min-height: 50rem)').matches) {
-      top = element.offsetTop + 100;
+      top = element.offsetTop + 180;
     } else {
-      top = element.offsetTop + 200;
+      top = element.offsetTop + 280;
     }
     scrollTo(top, 600);
   }

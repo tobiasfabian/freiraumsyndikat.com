@@ -15,6 +15,7 @@ l::set(array(
     'weiterlesen' => 'weiterlesen',
 
     'Biografie des Ensembles' => 'Biografie des Ensembles',
+    'Musiker des Ensembles' => 'Musiker des Ensembles',
     'Presse-stimmen' => 'Presse-stimmen',
 
 ));

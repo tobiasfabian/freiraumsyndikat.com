@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" href="<?= url('assets/css/style-v2.css') ?>">
   <script src="<?= url('assets/js/main-v2-min.js') ?>" defer></script>
-  <?php if ($soundcloud_api): ?>
+  <?php if (isset($soundcloud_api)): ?>
   <script src="//w.soundcloud.com/player/api.js"></script>
   <?php endif ?>
 
@@ -42,4 +42,4 @@
   <link rel="apple-touch-icon" href="<?= url('assets/images/apple-touch-icon.png') ?>">
 
 </head>
-<body <?= $body_class ? 'class="' . $body_class . '"' : null ?>>
+<body <?= isset($body_class) ? 'class="' . $body_class . '"' : null ?>>

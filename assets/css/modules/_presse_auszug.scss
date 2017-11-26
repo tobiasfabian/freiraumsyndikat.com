@@ -26,4 +26,14 @@
   .info {
     font-size: 0.8em;
   }
+
+  @media (max-width: 34em) {
+    &:first-of-type {
+      margin-top: 6rem;
+    }
+    p {
+      font-size: 1.3rem;
+      line-height: 1.15;
+    }
+  }
 }

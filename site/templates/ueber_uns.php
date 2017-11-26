@@ -9,6 +9,15 @@
   <nav class="pagenav">
     <ul>
       <li>
+        <a href="#musiker">
+          <strong><?= l::get('Musiker des Ensembles') ?></strong>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </li>
+      <li>
         <a href="#biografie">
           <strong><?= l::get('Biografie des Ensembles') ?></strong>
           <span></span>
@@ -20,23 +29,19 @@
           <span></span>
         </a>
       </li>
-      <li>
-        <a href="#presse">
-          <strong><?= l::get('Presse-stimmen') ?></strong>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </li>
     </ul>
-    <a href="#biografie" class="arrow">
+    <a href="#musiker" class="arrow">
       <span></span>
       <span></span>
       <span></span>
     </a>
   </nav>
+
+  <div>
+    <?php snippet('presse') ?>
+  </div>
+
+  <div class="seperator" id="musiker"></div>
 
   <ul class="ensemble">
     <?php foreach($page->children()->visible() as $mitglied): ?>
@@ -66,12 +71,6 @@
   <article class="article">
     <?= $page->text()->kt() ?>
   </article>
-
-  <div class="seperator" id="presse"></div>
-
-  <div>
-    <?php snippet('presse') ?>
-  </div>
 
 </main>
 

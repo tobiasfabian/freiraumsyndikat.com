@@ -74,6 +74,12 @@
       color: $color--link;
     }
   }
+  a.is-about {
+    padding-right: 0;
+  }
+  a.is-us {
+    padding-left: 0;
+  }
   @media (max-width: 52em) {
     padding-left: 10.5rem;
   }
