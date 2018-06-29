@@ -1,0 +1,33 @@
+{
+  "name": "develop-blueprint",
+  "version": "1.0.2",
+  "description": "Develop Blueprint",
+  "keywords": [
+    "Gulp",
+    "ES6",
+    "Sass"
+  ],
+  "dependencies": {},
+  "author": "tobias.wolf@wagnerwagner.de",
+  "devDependencies": {
+    "airbnb-browser-shims": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.5",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-mozjpeg": "^7.0.0",
+    "node-notifier": "^5.2.1",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.14.0",
+    "webpack-stream": "^4.0.3"
+  }
+}

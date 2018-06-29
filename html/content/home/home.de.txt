@@ -1,0 +1,53 @@
+Title: Startseite
+
+----
+
+Meta-description: Startseite von Freiraum Syndikat – Baroque Jazz Chamber Group
+
+----
+
+Button-text: Videovorstellung
+
+----
+
+Youtube-id: WpSQs1rjJZ4
+
+----
+
+Animated-images: 
+
+- 
+  image: gitarre.jpg
+- 
+  image: floete-1.jpg
+- 
+  image: floete-2.jpg
+- 
+  image: cello.jpg
+
+----
+
+Cites: 
+
+- 
+  text: >
+    Es beginnt mit einem grummelnden Cello,
+    zu dem sich schnell E-Gitarre und
+    Blockflöte, ach was, ein ganzes
+    Holzbläserarsenal aus skurrilen und
+    schrägen Instrumenten gesellt.
+  source: ""
+  link: ueber-uns
+- 
+  text: >
+    Freiraum Syndikat, diese vier
+    exzellenten Musiker, die in ihrem
+    Musik-Repertoire vier Jahrhunderte
+    umfassen, die aus Klassik, Jazz, Barock
+    und Moderne immer wieder Neues schaffen.
+  source: ""
+  link: ueber-uns
+- 
+  text: '„Freiraum Syndikat“ nennt sich das vierköpfige Ensemble, deren hochprofessionelles Zusammenspiel von zwei Blockflöten, E-Gitarre und Violoncello  „im Sound" das Alte wie das Neue“ vereinen soll.'
+  source: ""
+  link: ueber-uns
