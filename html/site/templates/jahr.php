@@ -8,7 +8,7 @@
 
   <h1 hidden><?= $page->title()->html() ?></h1>
 
-  <?php snippet('kalender') ?>
+  <?php snippet('kalender', array('dates' => $page->children()->visible()->sortBy('date'))) ?>
 
   <?php snippet('klaenge') ?>
 

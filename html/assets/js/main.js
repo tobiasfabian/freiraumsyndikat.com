@@ -100,28 +100,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var airbnb_browser_shims_browser_only__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! airbnb-browser-shims/browser-only */ "./node_modules/airbnb-browser-shims/browser-only.js");
 /* harmony import */ var airbnb_browser_shims_browser_only__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(airbnb_browser_shims_browser_only__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _modules_klaenge__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/klaenge */ "./develop/js/modules/klaenge.js");
-/* harmony import */ var _modules_ensemble__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/ensemble */ "./develop/js/modules/ensemble.js");
-/* harmony import */ var _modules_pagenav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/pagenav */ "./develop/js/modules/pagenav.js");
-/* harmony import */ var _modules_pagenav__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_pagenav__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _modules_mitglied__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/mitglied */ "./develop/js/modules/mitglied.js");
-/* harmony import */ var _modules_mitglied__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_modules_mitglied__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _modules_main_header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/main-header */ "./develop/js/modules/main-header.js");
-/* harmony import */ var _modules_main_header__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_modules_main_header__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _modules_kalender__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/kalender */ "./develop/js/modules/kalender.js");
-/* harmony import */ var _modules_kalender__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_modules_kalender__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _sites_error__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sites/error */ "./develop/js/sites/error.js");
-/* harmony import */ var _sites_hoerproben__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sites/hoerproben */ "./develop/js/sites/hoerproben.js");
-/* harmony import */ var _sites_jahr__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sites/jahr */ "./develop/js/sites/jahr.js");
-/* harmony import */ var _sites_kontakt__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sites/kontakt */ "./develop/js/sites/kontakt.js");
-/* harmony import */ var _sites_kontakt__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_sites_kontakt__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _sites_startseite__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sites/startseite */ "./develop/js/sites/startseite.js");
-/* harmony import */ var _sites_startseite__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_sites_startseite__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _modules_pagenav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/pagenav */ "./develop/js/modules/pagenav.js");
+/* harmony import */ var _modules_pagenav__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_pagenav__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _modules_main_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/main-header */ "./develop/js/modules/main-header.js");
+/* harmony import */ var _modules_main_header__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_main_header__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _modules_kalender__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/kalender */ "./develop/js/modules/kalender.js");
+/* harmony import */ var _modules_kalender__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_modules_kalender__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _sites_error__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sites/error */ "./develop/js/sites/error.js");
+/* harmony import */ var _sites_hoerproben__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sites/hoerproben */ "./develop/js/sites/hoerproben.js");
+/* harmony import */ var _sites_jahr__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sites/jahr */ "./develop/js/sites/jahr.js");
+/* harmony import */ var _sites_kontakt__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sites/kontakt */ "./develop/js/sites/kontakt.js");
+/* harmony import */ var _sites_kontakt__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_sites_kontakt__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _sites_startseite__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sites/startseite */ "./develop/js/sites/startseite.js");
 
 
 
+// import './modules/ensemble';
 
-
-
+// import './modules/mitglied';
 
 
 
@@ -252,84 +248,6 @@ class Klang {
 
 /***/ }),
 
-/***/ "./develop/js/modules/ensemble.js":
-/*!****************************************!*\
-  !*** ./develop/js/modules/ensemble.js ***!
-  \****************************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Klang__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Klang */ "./develop/js/modules/Klang.js");
-
-
-var ensembleElement = document.querySelector('.ensemble');
-
-function Mitglied (element) {
-  var _element = element;
-  var _klang = new _Klang__WEBPACK_IMPORTED_MODULE_0__["default"](_element.querySelector('.klang'));
-  var _mousemoveCounter = 0;
-  var _mousemoveX = 0;
-  var _mousemoveY = 0;
-  function handleMousmove (e) {
-    if (_mousemoveX === 0) {
-      _mousemoveX = e.clientX;
-    }
-    if (_mousemoveY === 0) {
-      _mousemoveY = e.clientY;
-    }
-    if (_mousemoveX !== 0 && _mousemoveY !== 0) {
-      _mousemoveCounter = (_mousemoveX - e.clientX) + (_mousemoveY - e.clientY);
-    }
-    if (_mousemoveCounter < -100 || _mousemoveCounter > 100) {
-      _mousemoveX = 0;
-      _mousemoveY = 0;
-      _klang.position();
-    }
-  }
-  function show() {
-    _element.classList.add('active');
-    _klang.show();
-    _klang.position();
-  }
-  function hide() {
-    _element.classList.remove('active');
-    _klang.hide();
-  }
-  function changeActive () {
-    if (!_element.classList.contains('active')) {
-      show();
-    } else {
-      hide();
-    }
-  }
-  _element.addEventListener('mouseover', show);
-  _element.addEventListener('mouseout', hide);
-  _element.addEventListener('focus', show);
-  _element.addEventListener('click', changeActive);
-  _element.addEventListener('mousemove', handleMousmove);
-  document.addEventListener('touchstart', function (e) {
-    if (e.target !== _element) {
-      hide();
-    }
-  });
-}
-
-function setEventListeners() {
-  for (var i = 0; i < ensembleMitgliedElements.length; i++) {
-    new Mitglied(ensembleMitgliedElements[i]);
-  }
-}
-
-if (ensembleElement) {
-  var ensembleMitgliedElements = ensembleElement.querySelectorAll('li');
-  setEventListeners();
-}
-
-
-/***/ }),
-
 /***/ "./develop/js/modules/kalender.js":
 /*!****************************************!*\
   !*** ./develop/js/modules/kalender.js ***!
@@ -404,23 +322,6 @@ hamburgerElement.addEventListener('click', function () {
 
 /***/ }),
 
-/***/ "./develop/js/modules/mitglied.js":
-/*!****************************************!*\
-  !*** ./develop/js/modules/mitglied.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-if (document.querySelector('.mitglied')) {
-
-  positionKlaenge();
-  document.addEventListener('click', positionKlaenge);
-
-}
-
-
-/***/ }),
-
 /***/ "./develop/js/modules/pagenav.js":
 /*!***************************************!*\
   !*** ./develop/js/modules/pagenav.js ***!
@@ -441,7 +342,7 @@ function scroll(e) {
   } else {
     top = element.offsetTop + 280;
   }
-  scrollTo(top, 600);
+  window.scroll({ top, behavior: 'smooth' });
 }
 
 if (pagenavElement) {
@@ -610,8 +511,13 @@ if (document.querySelector('.kontakt')) {
 /*!****************************************!*\
   !*** ./develop/js/sites/startseite.js ***!
   \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _modules_Klaenge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/Klaenge */ "./develop/js/modules/Klaenge.js");
+
 
 function showHideCite() {
   citeElements[currentCite].classList.add('is-hidden');
@@ -626,8 +532,9 @@ var currentCite = 0;
 
 
 if (element) {
+  const klaenge = new _modules_Klaenge__WEBPACK_IMPORTED_MODULE_0__["default"]();
   setTimeout(function() {
-    setInterval(positionKlaenge, 2000);
+    setInterval(() => klaenge.positionKlaenge(), 2000);
     setInterval(showHideCite, 16000);
   }, 4000);
 }

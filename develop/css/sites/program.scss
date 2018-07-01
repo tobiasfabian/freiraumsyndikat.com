@@ -1,0 +1,139 @@
+.program {
+  box-sizing: border-box;
+  max-width: 42rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  border: 2px solid $color--brand;
+
+  header {
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    text-align: center;
+    color: $color--brand;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-top: 0;
+    }
+  }
+
+  figure {
+    float: right;
+    max-width: 23rem;
+    min-width: 14rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-right: -8rem;
+
+    img {
+      max-width: 100%;
+      border-top: 2px solid $color--white;
+      border-bottom: 2px solid $color--white;
+    }
+  }
+
+  @media (max-width: 56em) {
+    figure {
+      margin-right: calc(-3rem - 2px);
+    }
+  }
+
+  @media (max-width: 44em) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  @media (max-width: 40em) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    header {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    figure {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+
+.program__cast {
+  margin-top: 3rem;
+  margin-left: calc(-2rem - 2px);
+  margin-right: calc(-2rem - 2px);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-top: dashed 2px $color--brand;
+
+  h2,
+  > div {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  > div {
+    margin-top: 1rem;
+  }
+
+  em {
+    display: block;
+    color: $color--gray;
+  }
+
+  @media (max-width: 40em) {
+    margin-left: calc(-1rem - 2px);
+    margin-right: calc(-1rem - 2px);
+  }
+}
+
+
+.program__seperator {
+  height: 0.5rem;
+}
+
+
+.program__dates {
+  margin-top: 3rem;
+  margin-left: calc(-2rem - 2px);
+  margin-right: calc(-2rem - 2px);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-top: dashed 2px $color--brand;
+
+  .kalender {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  @media (max-width: 40em) {
+    margin-left: calc(-1rem - 2px);
+    margin-right: calc(-1rem - 2px);
+  }
+}

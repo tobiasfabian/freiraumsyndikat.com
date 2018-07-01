@@ -4,8 +4,8 @@
 
 <main class="center news news--eintrag">
 
-  <nav class="subnav back">
-    <a class="subnav--back" href="<?= $page->parent()->url() ?>"><?= l::get('zurück zu') , ' ' . $page->parent()->title()->html() ?></a>
+  <nav class="subnav subnav--back">
+    <a class="subnav__back" href="<?= $page->parent()->url() ?>"><?= l::get('zurück zu') , ' ' . $page->parent()->title()->html() ?></a>
   </nav>
 
   <article class="article">

@@ -1,0 +1,114 @@
+.ensemble {
+  margin: 4rem auto;
+  max-width: 41rem;
+
+  header {
+    max-width: 28rem;
+
+    h2 {
+      width: auto;
+      margin-top: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.8rem;
+    color: $color--gray;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  @media (max-width: 34em) {
+    figure {
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
+
+    figcaption {
+      padding-left: 2.5rem;
+    }
+  }
+
+  @media (max-width: 26em) {
+    figcaption {
+      padding-left: 1rem;
+    }
+  }
+}
+
+.ensemble__text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  @media (max-width: 26em) {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+.ensemble__projects {
+  margin-top: 2rem;
+
+  h3 {
+    margin-bottom: 0.75rem;
+    color: $color--gray;
+    text-transform: lowercase;
+  }
+
+  ul {
+    position: relative;
+    padding-left: 1.5rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0.2rem;
+      bottom: 0.2rem;
+      left: 1px;
+      width: 2px;
+      background-color: $color--link;
+    }
+
+    li {
+      max-width: 20rem;
+
+      &:not(:first-child) {
+        margin-top: 1rem;
+      }
+
+      strong {
+        display: block;
+        font-size: 1.2rem;
+      }
+      em {
+        display: block;
+        font-size: 0.8rem;
+        line-height: 1.3;
+        color: $color--gray;
+      }
+
+      a:focus,
+      a:hover {
+        text-decoration: none;
+        strong {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

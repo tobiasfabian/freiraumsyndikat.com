@@ -1,0 +1,33 @@
+title: Program
+pages: false
+files: true
+fields:
+  title:
+    label: Titel
+    type: text
+  subtitle:
+    label: Unterüberschrift
+    type: text
+  meta_description: meta_description
+  text:
+    label: Text
+    type: textarea
+  showDates:
+    label: Termine anzeigen?
+    type: toggle
+    default: false
+    help: Es werden alle Termine angezeigt, die den Titel dieses Programms enthalten.
+  datesKeywords:
+    label: Zusätzliche Keywords für Termine
+    type: tags
+  cast:
+    label: Besetzung
+    type: structure
+    style: table
+    fields:
+      role:
+        label: Rolle
+        type: text
+      name:
+        label: Name
+        type: text

@@ -1,7 +1,7 @@
 <header class="main_header">
   <div class="center">
     <a class="main_header--logo" href="<?= $site->homePage()->url() ?>">
-      <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>">
+      <img src="<?= url('assets/images/logo--gold.svg') ?>" alt="<?= $site->title()->html() ?>">
     </a>
     <button class="main_header--hamburger" type="button" aria-label="<?= l::get('Menü öffnen') ?>" data-label-close="<?= l::get('Menü schließen') ?>" data-label-open="<?= l::get('Menü öffnen') ?>">
       <span></span>
@@ -39,13 +39,12 @@
         </li>
       </ul>
     </nav>
-    <ul class="main_header--langswitch">
+    <!-- <ul class="main_header--langswitch">
       <?php foreach($site->languages() as $language): ?>
       <li>
         <a <?= $site->language() === $language ? ' class="active"' : null ?> href="<?= $page->url($language->code()) ?>"><?= $language->code() ?></a>
       </li>
       <?php endforeach ?>
-    </ul>
+    </ul> -->
   </div>
-  <img class="main_header--aside" src="<?= url('assets/images/aside.svg') ?>" alt="<?= $site->subtitle()->html() ?>">
 </header>

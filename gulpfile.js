@@ -117,7 +117,11 @@ gulp.task('optimize-images', function() {
       imagemin.gifsicle(),
       imageminMozjpeg(),
       imagemin.optipng(),
-      imagemin.svgo(),
+      imagemin.svgo({
+        plugins: [
+          { removeViewBox: false },
+        ]
+      }),
     ], {
       verbose: true,
     }).on('error', function handleError(error) {

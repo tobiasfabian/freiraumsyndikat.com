@@ -11,7 +11,7 @@ function scroll(e) {
   } else {
     top = element.offsetTop + 280;
   }
-  scrollTo(top, 600);
+  window.scroll({ top, behavior: 'smooth' });
 }
 
 if (pagenavElement) {

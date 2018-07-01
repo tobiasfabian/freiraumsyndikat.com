@@ -1,0 +1,251 @@
+.startseite {
+  min-height: calc(100vh - 64px);
+  padding-bottom: 1rem;
+  background-color: black;
+
+  @media (min-height: 24rem) and (min-width: 33.9999em) {
+    overflow: hidden;
+  }
+}
+
+
+.startseite--images {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  @media (max-width: 34em) {
+    position: static;
+  }
+
+  picture {
+    position: absolute;
+    animation-name: appearZoom;
+    animation-fill-mode: backwards;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    mix-blend-mode: lighten;
+    &:nth-of-type(1) { // gitarre gelb markus
+      left: 5%;
+      bottom: 8%;
+      animation-duration: 13s;
+      animation-delay: 2s;
+      @media (max-width: 74em) {
+        left: 2%;
+      }
+      @media (max-width: 34em) {
+        bottom: auto;
+        top: 24rem;
+        left: 4%;
+      }
+    }
+    &:nth-of-type(2) { // rosa friederike
+      top:  15%;
+      left: 25%;
+      animation-duration: 12s;
+      animation-delay: 3s;
+      @media (max-width: 64em) {
+        left: 18%;
+      }
+      @media (max-width: 34em) {
+        top:  6%;
+        left: 8%;
+      }
+    }
+    &:nth-of-type(3) { // türkis elisabeth
+      right: 35%;
+      bottom: 0;
+      animation-duration: 14s;
+      animation-delay: 1s;
+      @media (max-width: 34em) {
+        top: 36rem;
+        right: 5%;
+        bottom: auto;
+      }
+    }
+    &:nth-of-type(4) { // cello grün lukas
+      right:  5%;
+      bottom: 4%;
+      animation-delay: 0s;
+      @media (max-width: 64em) {
+        right: 3%;
+      }
+      @media (max-width: 34em) {
+        top: 18rem;
+        bottom: auto;
+      }
+    }
+  }
+
+  .klang {
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    transition-duration: $transition-duration * 10;
+    animation-name: appear;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+
+  }
+  .klang-markus-fleischer { // gelb
+    top:  calc(92% - 10.7rem);
+    left: calc( 5% +  9.5rem);
+    transform: rotate(210deg);
+    @media (max-width: 74em) {
+      left: calc(2% + 10rem);
+    }
+    @media (max-width: 54em) {
+      top:  calc(92% - 8rem);
+      left: calc(2% + 8rem);
+    }
+    @media (max-width: 34em) {
+      top: 34.5rem;
+      left: calc(4% + 4rem);
+      transform: rotate(210deg) scale(0.6);
+    }
+  }
+  .klang-friederike-vollert { // rosa
+    top:  calc(15% + 5.8rem);
+    left: calc(25% + 9rem);
+    transform: rotate(270deg);
+    @media (max-width: 64em) {
+      left: calc(18% + 9rem);
+    }
+    @media (max-width: 54em) {
+      top:  calc(15% + 5rem);
+      left: calc(18% + 7rem);
+    }
+    @media (max-width: 34em) {
+      top: calc(6% + 2.3rem);
+      left: calc(8% + 3.5rem);
+      transform: rotate(270deg) scale(0.6);
+    }
+  }
+  .klang-elisabeth-neuser { // türkis
+    top:  calc(100% - 9em);
+    left: calc(65%  - 7rem);
+    transform: rotate(230deg);
+    @media (max-width: 54em) {
+      top:  calc(100% - 7em);
+      left: calc(65%  - 6rem);
+    }
+    @media (max-width: 34em) {
+      top:  40rem;
+      left: calc(95% - 3.5rem);
+      transform: rotate(230deg) scale(0.6);
+    }
+  }
+  .klang-lukas-dreyer { // grün
+    top:  calc(96% - 17rem);
+    left: calc(95% - 12rem);
+    transform: rotate(20deg);
+    @media (max-width: 64em) {
+      left: calc(97% - 12rem);
+    }
+    @media (max-width: 54em) {
+      top:  calc(96% - 14rem);
+      left: calc(97% - 10rem);
+    }
+    @media (max-width: 34em) {
+      top: 27rem;
+      left: calc(97% - 5.5rem);
+      transform: rotate(20deg) scale(0.6);
+    }
+  }
+}
+
+
+.startseite--cite { // div or a element
+  position: absolute;
+  z-index: 1;
+  left: 43%;
+  right: 1rem;
+  top: 7 + 4rem; // 7rem is height of header
+  display: block;
+  max-width: 33rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-shadow: 0 0.1em 1em black;
+  color: $color--white;
+  transition-property: opacity;
+  transition-duration: $transition-duration * 2;
+  transition-delay: $transition-duration * 2;
+
+
+  &:nth-child(1) {
+    animation-name: appear;
+    animation-fill-mode: backwards;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  &.is-hidden {
+    opacity: 0;
+    transition-delay: 0s;
+    pointer-events: none;
+  }
+
+  p {
+    font-size: 1.5rem;
+    &::before {
+      content: '»';
+    }
+    &::after {
+      content: '«';
+    }
+  }
+
+  cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 64em) {
+    left: 37%;
+    top: 7 + 2rem; // 7rem is height of header
+  }
+  @media (max-width: 34em) {
+    // position: relative;
+    top: 7rem;
+    left: auto;
+    right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    p {
+      font-size: 1.3rem;
+      line-height: 1.15;
+    }
+  }
+}
+
+a.startseite--cite {
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    p {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.startseite {
+  .main_header:not(.active) {
+    background: none;
+    pointer-events: none;
+    a, button {
+      pointer-events: auto;
+    }
+  }
+  .main_header .main_header--logo {
+    background: transparent;
+  }
+}

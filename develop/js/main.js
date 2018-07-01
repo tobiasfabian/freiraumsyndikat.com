@@ -1,9 +1,9 @@
 import 'babel-polyfill';
 import 'airbnb-browser-shims/browser-only';
 import './modules/klaenge';
-import './modules/ensemble';
+// import './modules/ensemble';
 import './modules/pagenav';
-import './modules/mitglied';
+// import './modules/mitglied';
 import './modules/main-header';
 import './modules/kalender';
 

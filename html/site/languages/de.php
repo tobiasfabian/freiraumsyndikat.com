@@ -18,4 +18,7 @@ l::set(array(
     'Musiker des Ensembles' => 'Musiker des Ensembles',
     'Presse-stimmen' => 'Presse-stimmen',
 
+    'Programme' => 'Programme',
+    'Besetzung' => 'Besetzung',
+
 ));

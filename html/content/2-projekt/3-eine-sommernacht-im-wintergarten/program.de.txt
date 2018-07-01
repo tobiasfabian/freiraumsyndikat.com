@@ -1,0 +1,32 @@
+Title: Eine Sommernacht im Wintergarten
+
+----
+
+Subtitle: Kooperation // Puppenbühne // Theater und Philharmonie Altenburg - Gera
+
+----
+
+Meta-description: 
+
+----
+
+Text: fhjkjhgdsliud dskgdöjgd
+
+----
+
+Cast: 
+
+- 
+  role: Regie // Figuren
+  name: Frank Soehnle
+- 
+  role: Musikalische Leitung
+  name: Lukas Dreyer
+- 
+  role: Band / Orchester
+  name: >
+    FREIRAUM SYNDIKAT
+    baroque-jazz-chamber-group
+- 
+  role: Puppenspieler
+  name: Ensemble der Puppenbühne

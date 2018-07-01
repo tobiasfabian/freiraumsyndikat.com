@@ -1,0 +1,44 @@
+title: Über uns
+pages:
+  template:
+    - program
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  meta_description: meta_description
+  text:
+    label: Text (Ensemble-Biografie)
+    type:  textarea
+    buttons:
+      - bold
+      - link
+      - email
+  ensembles:
+    label: Ensembles
+    type: structure
+    modalsize: large
+    fields:
+      title:
+        label: Title
+        required: true
+        type: text
+      subtitle:
+        label: Unterüberschrift
+        type: text
+      image:
+       label: Bild
+       type: image
+      names:
+        label: Namen
+        type: text
+      text:
+       label: Text
+       required: true
+       type: textarea
+      programs:
+        label: Programme
+        type: checkboxes
+        options: visibleChildren
+        help: Die Seiten müssen sichtbar sein, damit sie hier angezeigt werden.

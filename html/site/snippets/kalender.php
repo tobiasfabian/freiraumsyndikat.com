@@ -2,10 +2,14 @@
   $monat;
 ?>
 <div class="kalender">
-  <?php foreach($page->children()->visible()->sortBy('date') as $termin): ?>
+  <?php foreach($dates as $termin): ?>
   <?php if ($monat != $termin->date('m')): ?>
   <?php $monat = $termin->date('m'); ?>
-  <h2><?= strftime('%B',$termin->date()) ?></h2>
+  <?php if ($page->template() === 'year'): ?>
+    <h2><?= strftime('%B',$termin->date()) ?></h2>
+    <?php else: ?>
+    <h2><?= strftime('%B %Y',$termin->date()) ?></h2>
+  <?php endif;?>
   <?php endif ?>
   <div class="kalender--eintrag" itemscope itemtype="http://schema.org/Event">
     <time class="kalender--eintrag--datum" itemprop="startDate" datetime="<?= $termin->date('c') ?>">

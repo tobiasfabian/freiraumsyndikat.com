@@ -3,6 +3,7 @@ pages:
   template:
     - fotos
     - hoerproben
+    - presse
 files: false
 fields:
   title:
