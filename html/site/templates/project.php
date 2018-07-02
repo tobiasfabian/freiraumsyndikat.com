@@ -1,5 +1,12 @@
 <?php
 $ensembles = $page->ensembles()->toStructure();
+function makePage($item) {
+  if (page()->find($item)) {
+    return page()->find($item);
+  } else {
+    return null;
+  }
+}
 ?>
 
 <?php snippet('head') ?>
@@ -56,13 +63,6 @@ $ensembles = $page->ensembles()->toStructure();
         <?php
         $programs = $item->programs()->split();
         $programs = new Collection($programs);
-        function makePage($item) {
-          if (page()->find($item)) {
-            return page()->find($item);
-          } else {
-            return null;
-          }
-        }
         $programs->map('makePage');
         $programs = new Pages($programs);
         $programs = $programs->visible()->sortBy('num');
