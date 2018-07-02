@@ -1,0 +1,32 @@
+Title: Bach Vision
+
+----
+
+Subtitle: ein Programm mit Musik und Tanzimprovisation als Vermittlung
+
+----
+
+Meta-description: cghjdhgd
+
+----
+
+Text: xxx
+
+----
+
+Showdates: false
+
+----
+
+Dateskeywords: 
+
+----
+
+Cast: 
+
+- 
+  role: Cellist // Moderator
+  name: Lukas Dreyer
+- 
+  role: Impro Tanz // Coach
+  name: Marco Jodes

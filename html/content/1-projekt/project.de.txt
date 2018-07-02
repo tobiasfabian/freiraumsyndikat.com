@@ -1,13 +1,11 @@
-Title: Projekt
+Title: innen
 
 ----
 
 Text: 
 
 # musical/think/tank 
-Unter diesem Gedanken entstehen in FREIRAUM SYNDIKAT in einer offenen musikalischen Begegnung in den verschiedenen Projekten und Programmen. Die Themen der Allianzen sind beweglich und Besetzung, . Die Freiheit durch den Mut der Künstler  Zusammensetzung. Improvisation und Komposition sind lebendige Anteile einer musikalischen Unterhaltung. Die Künstler, die sich in Freiraum Syndikat in den Projekten zusammen finden , verbindet die Neugier und Lust am Spiel in neuen Räumen , die .... Mut zum Scheitern wird zum Impuls für Entrepreneure der ,
-Die Elemente Melodie, Begleitung, Kontrapunkt und ihre rhythmische Struktur sind Grundparameter. Im Prozess der Kommunikation sind Harmonien oder Dissonanzen die Spannungsfelder von komponierter Struktur bis zu improvisierter Unterhaltung. Musik als gesellschaftlicher Diskurs und Abbild wurde und wird gelebt. 
-Menschen auf der suche nach
+Musik im FREIRAUM SYNDIKAT ist die Lust an neuem Klang in unerwarteter Instrumentation und Mut zum musikalischen Stilbruch. Im Arrangement zwischen Improvisation und Komposition entsteht der Raum für spannenden Dialog. Die Bühne ist die Arena für  Angebote gelebter Harmonie und für die Suche nach Geduld in Dissonanz. Applaus für die Faszination
 
 ----
 
@@ -39,16 +37,17 @@ Ensembles:
   subtitle: >
     Violoncello, E-Gitarre, und zwei
     Blockflöten
-  names: >
-    Elisabeth Neuser, Lukas Dreyer,
-    Friederike Vollert, Markus Fleischer
+  names: ""
 - 
   title: chamber-music-infection
-  image: ""
-  text: jhgodu dkjhödjhgd djcöjdgö
-  programs: ""
+  image: baroque-jazz-chamber-group.jpg
+  text: >
+    Violoncello und Improtanz als
+    Musikvermittlung für Schüler,
+    Studenten, Kinder und Erwachsene.
+  programs: bach-vision
   subtitle: >
     interdisziplinäres
     Musikvermittlungsprogramm mit Tanz und
     Improvisation
-  names: 'Lukas Dreyer & Marco Jodes'
+  names: ""
