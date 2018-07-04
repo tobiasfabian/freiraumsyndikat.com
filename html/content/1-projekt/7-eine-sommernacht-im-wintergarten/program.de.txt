@@ -2,7 +2,7 @@ Title: Eine Sommernacht im Wintergarten
 
 ----
 
-Subtitle: Kooperation // Puppenbühne // Theater und Philharmonie Altenburg - Gera
+Subtitle: (2015/16) Kooperation // Puppenbühne // Theater und Philharmonie Altenburg - Gera
 
 ----
 
@@ -10,7 +10,7 @@ Meta-description:
 
 ----
 
-Text: fhjkjhgdsliud dskgdöjgd
+Text: 
 
 ----
 
@@ -30,3 +30,11 @@ Cast:
 - 
   role: Puppenspieler
   name: Ensemble der Puppenbühne
+
+----
+
+Showdates: false
+
+----
+
+Dateskeywords: 

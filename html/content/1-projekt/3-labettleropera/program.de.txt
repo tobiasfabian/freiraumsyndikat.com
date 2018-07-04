@@ -1,0 +1,53 @@
+Title: LaBETTLEROPERa
+
+----
+
+Meta-description: 
+
+----
+
+Text: 
+
+Ein Großstadtcomic nach John Gay ’s »The Beggar’s Opera«
+Musik, Lyrics: Moritz Eggert.
+Von Balletto Civile (I), Neuköllner Oper und Freiraum Syndikat
+
+Gays Masterpiece des ironisch-zeitkritischen Musiktheaters schlüpf in neue Kleider, Töne und Sprachen. Zehn deutsche und italienische Darsteller-Tänzer-Sänger und die Musiker des Freiraum Syndikats treffen in einer so körperlich-dynamischen wie emotional-poetischen Neufassung aufeinander. Sie erzählen, singen und vor allem „bewegen“ ihre Sicht auf die alte, nein zeitlose Geschichte von Oben und Unten, Liebe und Verrat, Geld und Trieb.
+Eine neue Zusammenarbeit von Neuköllner Oper Berlin mit der international gefeierten, Grenzen- und Genres übergreifende TanzTheater-Kompagnie Balletto Civile und dem Komponisten Moritz Eggert („Bordellballade“). Uraufführung 19. Oktober 2017
+
+----
+
+Cast: 
+
+- 
+  role: Produktion, Dramaturgie
+  name: Neuköllner Oper, Berlin
+- 
+  role: Choreografie
+  name: Michela Lucenti
+- 
+  role: Tanzkompanie
+  name: Balletto Civile
+- 
+  role: Komponist
+  name: Moritz Eggert
+- 
+  role: Musikalische Leitung
+  name: Lukas Dreyer
+- 
+  role: Band / Orchester
+  name: >
+    FREIRAUM SYNDIKAT
+    baroque-jazz-chamber-group
+
+----
+
+Subtitle: (2017) Kooperation mit dem Balletto Civile, Genua als Opernproduktion der Neuköllner Oper, Berlin
+
+----
+
+Showdates: true
+
+----
+
+Dateskeywords: BEGGAR'S OPERA

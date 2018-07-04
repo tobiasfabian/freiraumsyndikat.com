@@ -1,0 +1,36 @@
+Title: Von Huren und Heiligen
+
+----
+
+Subtitle: ein Songprogramm von und mit Moritz Eggert
+
+----
+
+Meta-description: 
+
+----
+
+Text: 
+
+Mit dem Komponisten, Pianisten und Sänger Moritz Eggert verbindet Freiraum Syndikat als baroque-jazz-chamber-group eine enge Zusammenarbeit. Der Komponist hat für eine Produktion mit der Neuköllner Oper Berlin und das Balletto Civile, Genua für das Ensemble in der Quartettbesetzung Violoncello, E-Gitarre und 2 Blockflöten die Musik zu der Oper LaBettleropera geschrieben. Songs und Tänze aus dieser Produktion, sowie Arrangements von Songs von David Bowie oder Buddy Holiday prägen das Programm, das im Rahmen des Wave Gotik Treffens 2017 in Leipzig uraufgeführt wurde und bereits bei Classic Underground  vom BR im Millaclub München 2018 damit zu Gast war.
+
+für Veranstalter: Das Programm ist mit einer Tonverstärkung geplant. Für Anfragen wenden Sie sich an (email: booking@freiraumsyndikat.com text: booking@freiraumsyndikat.com)
+
+----
+
+Showdates: true
+
+----
+
+Dateskeywords: KLASSIK UNDERGROUND
+
+----
+
+Cast: 
+
+- 
+  role: FREIRAUM SYNDIKAT
+  name: baroque-jazz-chamber-group
+- 
+  role: Sänger / Komponist
+  name: Moritz Eggert

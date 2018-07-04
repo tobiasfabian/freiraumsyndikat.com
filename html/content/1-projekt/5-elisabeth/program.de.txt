@@ -1,0 +1,52 @@
+Title: EliSabeth
+
+----
+
+Subtitle: (2017) eine Begegnung in Wort und Ton
+
+----
+
+Meta-description: Workshop und Konzert zum Thema Migration im Referenz Konzept von Freiraum Syndikat
+
+----
+
+Text: Das Projekt als musikalische Lesung ist das Ergebnis von Workshops. In Kooperation mit den Eichsfelder Domfestspielen und der Evangelischen Erwachsenenbildung sind geflüchtete junge Erwachsene und einheimische Jugendliche auf der Spur ihre Geschichte zu erzählen.
+
+----
+
+Showdates: true
+
+----
+
+Dateskeywords: EliSabeth Musikalische Lesung
+
+----
+
+Cast: 
+
+- 
+  role: Künstlerische Leitung
+  name: Lukas Dreyer
+- 
+  role: Komponist
+  name: Henning Sieverts
+- 
+  role: Band / Orchester
+  name: >
+    FREIRAUM SYNDIKAT
+    baroque-jazz-chamber-group
+- 
+  role: Regie
+  name: Anita Steiner
+- 
+  role: Workshopleiter
+  name: Tom Ritschel, Maximilian Gutberlet
+- 
+  role: Veranstalter
+  name: Eichsfelder Domfestspiele
+- 
+  role: Organisation
+  name: Vera Fischer
+- 
+  role: Teilnehmer
+  name: 25 Jugendliche und Erwachsene

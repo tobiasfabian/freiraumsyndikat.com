@@ -1,4 +1,4 @@
-Title: heute
+Title: Referenzen/News
 
 ----
 
@@ -6,4 +6,4 @@ Text:
 
 ----
 
-Meta-description: Neuigkeiten von Freiraum Syndikat – Baroque Jazz Chamber Group
+Meta-description: Referenzen von Freiraum Syndikat – musical think tank

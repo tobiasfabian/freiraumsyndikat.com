@@ -1,0 +1,37 @@
+Title: Zyklus des Unsichtbaren
+
+----
+
+Subtitle: vier Ringlesung zu den Weltreligionen (2016)
+
+----
+
+Meta-description: 
+
+----
+
+Text: 
+
+----
+
+Showdates: false
+
+----
+
+Dateskeywords: zyklus
+
+----
+
+Cast: 
+
+- 
+  role: Veranstalter
+  name: Konrad Adenauer Stiftung, Erfurt
+- 
+  role: Kooperation
+  name: Theater und Philharmonie Thüringen
+- 
+  role: Sprecher
+  name: >
+    Sabine Schramm, Lutz Großmann, Lys
+    Schubert, Marcella von Jan
