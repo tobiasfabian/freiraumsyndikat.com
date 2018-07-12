@@ -30,24 +30,23 @@ Animated-images:
 Cites: 
 
 - 
-  text: >
-    Es beginnt mit einem grummelnden Cello,
-    zu dem sich schnell E-Gitarre und
-    Blockflöte, ach was, ein ganzes
-    Holzbläserarsenal aus skurrilen und
-    schrägen Instrumenten gesellt.
-  source: ""
+  text: "If you don't know what to play, play nothing."
+  source: 'Miles Davis (1926 - 1991)'
   link: pr/presse
 - 
   text: >
-    Freiraum Syndikat, diese vier
-    exzellenten Musiker, die in ihrem
-    Musik-Repertoire vier Jahrhunderte
-    umfassen, die aus Klassik, Jazz, Barock
-    und Moderne immer wieder Neues schaffen.
-  source: ""
+    Musik ist eine Form der Kunst, die uns
+    erlaubt, eingesperrte Emotionen zu
+    befreien.
+  source: 'Irina Rauthmann (*1958)'
   link: pr/presse
 - 
-  text: '„Freiraum Syndikat“ nennt sich das vierköpfige Ensemble, deren hochprofessionelles Zusammenspiel von zwei Blockflöten, E-Gitarre und Violoncello  „im Sound" das Alte wie das Neue“ vereinen soll.'
-  source: ""
+  text: >
+    Got to the clubs and play for your
+    audience!
+  source: 'Chick Corea (*1941)'
+  link: pr/presse
+- 
+  text: Ich möchte wissen, was da draußen ist.
+  source: 'Steven Hawking (1942 - 2018)'
   link: pr/presse

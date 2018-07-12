@@ -1,11 +1,13 @@
-Title: über/Projekte
+Title: Projekte
 
 ----
 
 Text: 
 
-# musical/think/tank 
-Herzlich Willkommen im musikalischen Labor FREIRAUM SYNDIKAT. Hier entstehen neue Zusammenklänge. Im Rhythmus von Harmonie und Dissonanz findet der Erfindungsgeist zum musikalischen Stilbruch. Das Spiel im Arrangement zwischen Improvisation und Komposition wird zum offenen Konzept in seiner Instrumentierung. Treten sie ein in eine  Arena voller Möglichkeiten. Wo Kunst entsteht, wird das Erleben zum Geschenk für alle Beteiligten.
+# music/lab/production 
+Herzlich Willkommen im musikalischen Labor FREIRAUM SYNDIKAT. Als künstlerisch motiviertes Projekt  im interdisziplinären Gedanken treffen sich unter der Leitung von dem Cellisten (link: http://lukasdreyer.de text: Lukas Dreyer popup:true) internationale Musiker, Künstler und Pädagogen für die Entwicklung von neuen Konzepten für Bühnenprogramme und anderen Formaten. Die Spielfelder der Kooperationen sind von Konzert, Theater, Lesung, bis hin zu Workshops und Masterclasses geöffnet. Dabei spielt der Vermittlungsgedanke eine zentrale Rolle im offenen Spiel mit Themen zwischen den Genres. Neue Hörerfahrungen bestimmen dabei den offenen Dialog zwischen den Künstern und ihrem Publikum. 
+
+In den unterschiedlichen Projekten sind immer musikalische Lösungsansätze als verbindendes Element präsent. Diese universelle Sprache bildet die Brücke zur Beschäftigung mit authentischen Fragen der klassischen Musikentwicklung. Brüche und neue Konvergenzen sind vitale Ergebnisse einer Suche. Der Besucher betritt eine Arena im Klangbild und Rhythmus der Möglichkeiten. Wo Kunst entsteht, wird das Erleben von Harmonie und Dissonanz zum Erlebnis für alle Beteiligten.
 
 ----
 
@@ -16,33 +18,7 @@ Meta-description: Die Gründung von Freiraum Syndikat im Jahre 2015, das in sein
 Ensembles: 
 
 - 
-  title: baroque-jazz-chamber-group
-  image: baroque-jazz-chamber-group.jpg
-  text: >
-    Der Cellist Lukas Dreyer gründete 2015
-    FREIRAUM SYNDIKAT als offenes
-    Bandkonzept in unterschiedlichen
-    Besetzungen in einer Kooperation mit dem
-    Puppentheater. Es folgten weitere
-    Kooperationen mit internationalen
-    Musikern, Komponisten, Tänzern und
-    Schauspielern. Hier entstanden Programme
-    zwischen Konzertformat, musikalischen
-    Lesungen, Tanztheater bis hin zur Oper
-    in der einzigartigen Instrumentierung
-    als musikalischen Stilbruch zwischen
-    Komposition, Arrangement und
-    Improvisation.
-  programs: >
-    von-huren-und-heiligen, strange-meeting,
-    labettleropera, zyklus-des-unsichtbaren,
-    eine-sommernacht-im-wintergarten
-  subtitle: >
-    Violoncello, E-Gitarre, und zwei
-    Blockflöten
-  names: ""
-- 
-  title: chamber-music-infection
+  title: music-infection
   subtitle: >
     ein Programm mit Musik und
     Tanzimprovisation
@@ -53,12 +29,46 @@ Ensembles:
     Dreyer (Violoncello) und Marco Jodes
     (Improvisationstanz) basiert auf der
     Musik der 6 Solosuiten für Violoncello
-    von Johann Sebastian Bach, Improvisation
-    und Kompositionen. In einer expressiven
-    Begegnung werden Klänge, Geschichten zu
-    neuer Interpretation zwischen Klang und
-    Bewegung.
+    von Johann Sebastian Bach, musikalischer
+    und tänzerischer Improvisation.
+    Komposition als Struktur und als Moment
+    der Inspiration sind die
+    Spannungsfelder, in denen die
+    Auseinandersetzung einen unmittelbar
+    didaktischen Ansatz erlaubt. In einer
+    expressiven Begegnung werden Klänge und
+    Geschichten zu neuer Interpretation
+    zwischen Klang und Bewegung.
   programs: bach-vision
+- 
+  title: >
+    FREIRAUM SYNDIKAT
+    baroque-jazz-chamber-group
+  image: baroque-jazz-chamber-group.jpg
+  text: >
+    Der Cellist Lukas Dreyer gründete 2015
+    FREIRAUM SYNDIKAT als offenes
+    Bandkonzept in unterschiedlichen
+    Besetzungen in einer Kooperation mit dem
+    Puppentheater. Es folgten weitere
+    Kooperationen mit internationalen
+    Musikern, Komponisten, Tänzern und
+    Schauspielern. Die Programme sind als
+    Konzertformat, musikalische Lesungen,
+    Tanztheater bis hin zur Oper gestaltet.
+    Eine einzigartige Instrumentierung in
+    einer Quartettbesetzung wird zum
+    Markenzeichen für musikalischen
+    Stilbruch im Kontext von Komposition,
+    Arrangement und Improvisation.
+  programs: >
+    von-huren-und-heiligen, strange-meeting,
+    labettleropera, zyklus-des-unsichtbaren,
+    eine-sommernacht-im-wintergarten
+  subtitle: >
+    Violoncello, E-Gitarre, und zwei
+    Blockflöten
+  names: ""
 - 
   title: EliSabeth
   subtitle: Workshop und Musikalische Lesung

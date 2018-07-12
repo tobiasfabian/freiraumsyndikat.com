@@ -10,23 +10,23 @@ Meta-description: Musikvermittlung für Kinder, Jugendliche und Erwachsene als T
 
 ----
 
-Text: Programm Details folgen in Kürze
+Text: Gemeinsam mit dem Tänzer Marco Jodes startete als Premiere auf dem WGT in Leipzig ein weiteres Projekt im FREIRAUM SYNDIKAT als Programm, das seinen Ursprung in der Idee von Hauskonzerten hat. Den vielseitigen Tänzer, mit großer tanzpädagogischer Erfahrung interessiert die Welt der Improvisation. Im Musikalischen Gespräch mit Johann sebastian Bachs Kompositionen für Violoncello solo entspinnt sich eine Geschichte, die die Künstler und Zuhörer verbindet. Das Konzept wird nach diesem fulminanten Start in der Zukunft mit seinem eigenen Format zwischen Konzert und Performance auch einen Musikvermittlungsauftrag für gemischte Altersstufen im Umfeld von Workshops und Familien-Konzertformaten integrieren.
 
 ----
 
-Showdates: false
+Showdates: true
 
 ----
 
-Dateskeywords: 
+Dateskeywords: Premiere "MUSICAL INFECTION #8"
 
 ----
 
 Cast: 
 
 - 
-  role: Cellist // Moderator
+  role: Cellist, Moderator, Pädagoge
   name: Lukas Dreyer
 - 
-  role: Impro Tanz // Coach
+  role: Impro Tanzpreformance, Tanzpädagoge
   name: Marco Jodes

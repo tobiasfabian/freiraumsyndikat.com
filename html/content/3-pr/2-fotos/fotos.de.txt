@@ -1,0 +1,35 @@
+Title: Fotos
+
+----
+
+Fotos: 
+
+- 
+  foto: pressefoto-1-web.jpg
+  position: mitte
+  titel: Freiraum Syndikat Pressebild 1
+  copyright: 2015 Ronny Ristok
+  download: pressefoto-1.jpg
+- 
+  foto: mundauf-web.jpg
+  position: mitte
+  titel: Vier Musiker mit offenem Mund!
+  copyright: 2015 Ronny Ristok
+  download: mundauf.jpg
+- 
+  foto: kreis.jpg
+  position: mitte
+  titel: Kreise mit Klängen
+  copyright: 2015 Ronny Ristok
+  download: kreis.jpg
+- 
+  foto: >
+    poster-strange-meeting-freiraum-syndikat-2017.jpg
+  download: ""
+  position: links
+  titel: Plakat STRANGE MEETING (Beispiel)
+  copyright: 2015 Ronny Ristok / 2016 flatlab
+
+----
+
+Meta-description: Fotos von Freiraum Syndikat – Baroque Jazz Chamber Group

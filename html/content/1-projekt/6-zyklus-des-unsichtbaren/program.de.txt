@@ -2,11 +2,11 @@ Title: Zyklus des Unsichtbaren
 
 ----
 
-Subtitle: vier Ringlesung zu den Weltreligionen (2016)
+Subtitle: vier Ringlesung zu den Weltreligionen (2016) Kooperation Konrad Adenauer Stiftung
 
 ----
 
-Meta-description: 
+Meta-description: Freiraum Syndikat - musikalische Lesung zu den Weltreligionen in Kooperation Konrad Adenauer Stiftung
 
 ----
 
@@ -14,11 +14,11 @@ Text:
 
 ----
 
-Showdates: false
+Showdates: true
 
 ----
 
-Dateskeywords: zyklus
+Dateskeywords: Musikalische Lesung - Islam,Musikalische Lesung - Judentum,Musikalische Lesung - Buddhismus,Musikalische Lesung - Christentum
 
 ----
 
