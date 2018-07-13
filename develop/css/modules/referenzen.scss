@@ -1,0 +1,43 @@
+.referenzen {
+  margin: 4rem auto;
+  max-width: 38rem;
+
+  p {
+    position: relative;
+    padding-left: 9rem;
+  }
+
+  strong {
+    display: block;
+    margin-left: -9rem;
+    margin-top: 2em;
+    margin-bottom: -1em;
+    font-size: 1.5rem;
+    // color: $color--brand;
+
+    + br {
+      display: none;
+    }
+  }
+
+  em {
+    color: $color--gray;
+  }
+
+  @media (max-width: 52em) {
+    p {
+      padding-left: 6rem;
+    }
+    strong {
+      margin-left: -6rem;
+    }
+  }
+  @media (max-width: 42em) {
+    p {
+      padding-left: 4.5rem;
+    }
+    strong {
+      margin-left: -4.5rem;
+    }
+  }
+}

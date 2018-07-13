@@ -6,7 +6,7 @@
 
   <h1 hidden><?= $page->title()->html() ?></h1>
 
-  <?php $new_eintraege = $page->children()->visible()->flip()->paginate(2); ?>
+  <?php $new_eintraege = $page->children()->visible()->flip()->paginate(3); ?>
   <?php foreach($new_eintraege as $news_eintrag): ?>
 
   <article class="article" itemscope itemtype="http://schema.org/Article">

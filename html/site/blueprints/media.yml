@@ -4,6 +4,7 @@ pages:
     - fotos
     - hoerproben
     - presse
+    - referenzen
 files: false
 fields:
   title:
