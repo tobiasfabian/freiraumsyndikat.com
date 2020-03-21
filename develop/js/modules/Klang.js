@@ -26,29 +26,27 @@ class Klang {
       }
     }
 
-    window.addEventListener('scroll', handleScroll);
-
-    requestAnimationFrame(() => {
-      klang.position();
-    })
+    window.addEventListener('scroll', handleScroll, {
+      passive: true,
+    });
   }
 
 
   position() {
     const { element } = this;
+    const { innerWidth, innerHeight } = window;
+    let { offsetLeft, offsetTop } = element;
+    offsetLeft = offsetLeft + 128 * 0.5; // 128 is height of element
+    offsetTop = offsetTop + 128 * 0.5; // 128 is height of element
 
-    var left = randomNumber(10, 90);
-    var top = randomNumber(20, 90);
+    var left = randomNumber(offsetLeft * -1 + 128, innerWidth - offsetLeft - 128);
+    var top = randomNumber(offsetTop * -1 + 128, innerHeight - offsetTop - 128);
     var rotate = randomNumber(-360, 360);
     var scale = randomNumber(0.8, 1);
     if (window.matchMedia('(max-width: 34rem)').matches) {
       scale = randomNumber(0.5, 0.7);
     }
-    requestAnimationFrame(function () {
-      element.style.left = left + '%';
-      element.style.top = top + '%';
-      element.style.transform = 'rotate(' + rotate + 'deg) scale(' + scale + ')';
-    });
+    element.style.transform = 'translate(' + left + 'px, ' + top + 'px) rotate(' + rotate + 'deg) scale(' + scale + ')';
   }
 
   show() {

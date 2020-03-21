@@ -1,6 +1,5 @@
-import 'babel-polyfill';
 import 'airbnb-browser-shims/browser-only';
-import './modules/klaenge';
+// import './modules/Klaenge';
 // import './modules/ensemble';
 import './modules/pagenav';
 // import './modules/mitglied';

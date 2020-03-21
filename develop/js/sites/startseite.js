@@ -14,8 +14,13 @@ var currentCite = 0;
 
 if (element) {
   const klaenge = new Klaenge();
+
+  function positionKlaenge() {
+    klaenge.positionKlaenge();
+  }
+
   setTimeout(function() {
-    setInterval(() => klaenge.positionKlaenge(), 2000);
+    setInterval(positionKlaenge, 2000);
     setInterval(showHideCite, 16000);
   }, 4000);
 }

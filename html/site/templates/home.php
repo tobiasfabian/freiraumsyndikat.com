@@ -36,9 +36,9 @@
       $img_url_34    = thumb($image, array('width' => $image->width() / 5))->url();
       ?>
       <picture>
-        <source src="<?= $img_url_34 ?>" srcset="<?= $img_url_34_2x ?> 2x" media="(max-width: 34em)">
-        <source src="<?= $img_url_54 ?>" srcset="<?= $img_url_54_2x ?> 2x" media="(max-width: 54em)">
-        <img src="<?= $img_url ?>" srcset="<?= $img_url_2x ?> 2x">
+        <source srcset="<?= $img_url_34 ?> 1x, <?= $img_url_34_2x ?> 2x" media="(max-width: 34em)">
+        <source srcset="<?= $img_url_54 ?> 1x, <?= $img_url_54_2x ?> 2x" media="(max-width: 54em)">
+        <img src="<?= $img_url ?>" srcset="<?= $img_url_2x ?> 2x" alt="<?= $image->alt() ?>">
       </picture>
     <?php endif; ?>
   <?php endforeach; ?>

@@ -27,13 +27,13 @@
         </li>
         <?php endforeach ?>
         <li class="main_header--menu--social_media">
-          <a class="social_media_icon" href="<?= $site->facebook_link() ?>" target="_blank">
+          <a class="social_media_icon" href="<?= $site->facebook_link() ?>" target="_blank" rel="noopener">
             <img src="<?= url('assets/images/icon--facebook.svg') ?>" alt="Facbook Icon">
           </a>
-          <a class="social_media_icon" href="<?= $site->soundcloud_link() ?>" target="_blank">
+          <a class="social_media_icon" href="<?= $site->soundcloud_link() ?>" target="_blank" rel="noopener">
             <img src="<?= url('assets/images/icon--soundcloud.svg') ?>" alt="Soundcloud Icon">
           </a>
-          <a class="social_media_icon" href="<?= $site->youtube_link() ?>" target="_blank">
+          <a class="social_media_icon" href="<?= $site->youtube_link() ?>" target="_blank" rel="noopener">
             <img src="<?= url('assets/images/icon--youtube.svg') ?>" alt="YouTube Icon">
           </a>
         </li>

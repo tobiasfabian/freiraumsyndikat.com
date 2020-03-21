@@ -1,6 +1,9 @@
 title: Startseite
 pages: false
-files: true
+files:
+  fields:
+    alt:
+      type: text
 options:
   status: false
 fields:

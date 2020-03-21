@@ -1,33 +1,35 @@
 {
   "name": "develop-blueprint",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Develop Blueprint",
   "keywords": [
     "Gulp",
+    "Webpack",
     "ES6",
     "Sass"
   ],
-  "dependencies": {},
-  "author": "tobias.wolf@wagnerwagner.de",
+  "author": "hello@tobiaswolf.me",
   "devDependencies": {
-    "airbnb-browser-shims": "^3.0.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.24.5",
-    "eslint": "^5.0.1",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.1",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "imagemin-mozjpeg": "^7.0.0",
-    "node-notifier": "^5.2.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "node-notifier": "^5.4.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^4.14.0",
-    "webpack-stream": "^4.0.3"
+    "webpack": "^4.30.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "airbnb-browser-shims": "^3.1.0",
+    "core-js": "^3.0.1"
   }
 }

@@ -1,7 +1,7 @@
 import Klang from './Klang';
 
 class Klaenge {
-  getKlaenge() {
+  constructor() {
     var klangElements = document.querySelectorAll('.klang');
     var klaenge = [];
     if (klangElements.length > 0) {
@@ -9,14 +9,11 @@ class Klaenge {
         klaenge.push(new Klang(klangElements[i]));
       }
     }
-    return klaenge;
+    this.klaenge = klaenge;
   }
 
-
   positionKlaenge() {
-
-    var klaenge = this.getKlaenge();
-
+    const { klaenge } = this;
     for (var i = 0; i < klaenge.length; i++) {
       klaenge[i].position();
     }
