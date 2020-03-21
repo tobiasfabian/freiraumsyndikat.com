@@ -23,3 +23,7 @@ Meta-description: Website von Freiraum Syndikat – Baroque Jazz Chamber Group
 ----
 
 Email: info@freiraumsyndikat.com
+
+----
+
+Fbshareimage: fb-share-image.jpg

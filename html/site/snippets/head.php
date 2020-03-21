@@ -27,7 +27,7 @@
   <meta property="og:title" content="<?= $page->title() . ' – ' . $site->title() ?>">
   <?php endif ?>
   <meta property="og:site_name" content="<?= $site->title() ?>">
-  <meta property="og:image" content="<?= url('assets/images/fb-share-image.jpg') ?>">
+  <meta property="og:image" content="<?= ($fbShareImage = $site->fbShareImage()->toFile()) ? $fbShareImage->crop(1200, 630, 70)->url() : url('assets/images/fb-share-image.jpg'); ?>">
   <meta property="og:url" content="<?= $page->url() ?>">
   <?php if($site->language() == 'de') : ?>
   <meta property="og:locale" content="de_DE">
