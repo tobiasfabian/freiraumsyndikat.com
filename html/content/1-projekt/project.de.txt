@@ -5,7 +5,7 @@ Title: Projekte
 Text: 
 
 # music/lab/production 
-Herzlich Willkommen im musikalischen Labor FREIRAUM SYNDIKAT. Als künstlerisch motiviertes Projekt  im interdisziplinären Gedanken treffen sich unter der Leitung von dem Cellisten (link: http://lukasdreyer.de text: Lukas Dreyer popup:true) internationale Musiker, Künstler und Pädagogen für die Entwicklung von neuen Konzepten für Bühnenprogramme und anderen Formaten. Die Spielfelder der Kooperationen sind von Konzert, Theater, Lesung, bis hin zu Workshops und Masterclasses geöffnet. Dabei spielt der Vermittlungsgedanke eine zentrale Rolle im offenen Spiel mit Themen zwischen den Genres. Neue Hörerfahrungen bestimmen dabei den offenen Dialog zwischen den Künstern und ihrem Publikum. 
+Herzlich Willkommen im musikalischen Labor FREIRAUM SYNDIKAT. Als künstlerisch motiviertes Projekt  im interdisziplinären Gedanken treffen sich unter der Leitung von dem Cellisten (link: http://lukasdreyer.de text: Lukas Dreyer popup:true) internationale Musiker, Künstler und Pädagogen für die Entwicklung von neuen Konzepten für Bühnenprogramme und anderen Formaten. Die Spielfelder der Kooperationen sind von Konzert, Theater, Lesung, bis hin zu Workshops und Masterclasses geöffnet. Dabei spielt der Vermittlungsgedanke eine zentrale Rolle im offenen Spiel mit Themen zwischen den Genres. Neue Hörerfahrungen bestimmen dabei den offenen Dialog zwischen den Künstlern und ihrem Publikum. 
 
 In den unterschiedlichen Projekten sind immer musikalische Lösungsansätze als verbindendes Element präsent. Diese universelle Sprache bildet die Brücke zur Beschäftigung mit authentischen Fragen der klassischen Musikentwicklung. Brüche und neue Konvergenzen sind vitale Ergebnisse einer Suche. Der Besucher betritt eine Arena im Klangbild und Rhythmus der Möglichkeiten. Wo Kunst entsteht, wird das Erleben von Harmonie und Dissonanz zum Erlebnis für alle Beteiligten.
 
@@ -18,12 +18,30 @@ Meta-description: Die Gründung von Freiraum Syndikat im Jahre 2015, das in sein
 Ensembles: 
 
 - 
-  title: music-infection
+  title: >
+    FREIRAUM SYNDIKAT music lyric dance
+    project
   subtitle: >
-    ein Programm mit Musik und
-    Tanzimprovisation
+    Violoncello, E-Gitarre/Gitarre, Harfe,
+    Sprecherin, Tanz
+  image: freiraum-syndikat.jpg
+  names: 'Photorights: Stefan Walzl / Raisan Hameed / Sabrina Lieb'
+  text: >
+    Das internationale Ensemble Freiraum
+    Syndikat findet im musikalischen Kontext
+    gemeinsam mit Schauspielern und Tänzern
+    seine Klangkonzepte über die
+    Genregrenzen hinaus. Dabei wird der
+    besondere Bezug auf den Aufführungsort
+    als Raum gesucht und somit Anlass zum
+    authentischen Erlebnis für das
+    Publikum.
+  programs: creation-und-offenbarung
+- 
+  title: FREIRAUM SYNDIKAT music dance project
+  subtitle: Violoncello, Tanz
   image: lieb_180519_dsc7296.jpg
-  names: ""
+  names: 'Photorights: Sabrina Lieb'
   text: >
     Das Programm "Bach Vision" von Lukas
     Dreyer (Violoncello) und Marco Jodes
@@ -42,8 +60,8 @@ Ensembles:
   programs: bach-vision
 - 
   title: >
-    FREIRAUM SYNDIKAT
-    baroque-jazz-chamber-group
+    FREIRAUM SYNDIKAT baroque jazz chamber
+    group
   image: baroque-jazz-chamber-group.jpg
   text: >
     Der Cellist Lukas Dreyer gründete 2015
@@ -65,12 +83,10 @@ Ensembles:
     von-huren-und-heiligen, strange-meeting,
     labettleropera, zyklus-des-unsichtbaren,
     eine-sommernacht-im-wintergarten
-  subtitle: >
-    Violoncello, E-Gitarre, und zwei
-    Blockflöten
-  names: ""
+  subtitle: Violoncello, E-Gitarre, Blockflöten
+  names: 'Photorights: Ronny Ristok'
 - 
-  title: EliSabeth
+  title: FREIRAUM SYNDIKAT music lab
   subtitle: Workshop und Musikalische Lesung
   image: img_7491.jpg
   names: ""
@@ -78,3 +94,10 @@ Ensembles:
     Ein Projekt der Eichsfelder Domfestspiele in Kooperation mit der EEB Erfurt.
     Freiraum Syndikat und der Komponist und Jazz Bassist Henning Sieverts begeben sich auf eine musikalische Reise. Zu Fluchtgeschichten, die in 5 Sprachen erzählt werden, findet die Musik von Freiraum Syndikat und Henning Sieverts die Verbindung.
   programs: elisabeth
+- 
+  title: FREIRAUM SYNDIKAT do-tank
+  subtitle: Musik, Tanz, Malerei, Gespräch
+  image: improvisation-in-3-farben.jpg
+  names: 'Rights: Barbara Mahler'
+  text: 'Der Do-Tank des Freiraum Syndikats ist spezialisiert auf künstlerische, über Musik und Klang geleitete Erfahrungskonzepte: Künstler:innen aus verschiedenen künstlerischen Darstellungsform interpretieren ein ihnen zugetragenes Thema, einen Betrachtungsgegenstand.'
+  programs: do-tank-musikalische-interventionen

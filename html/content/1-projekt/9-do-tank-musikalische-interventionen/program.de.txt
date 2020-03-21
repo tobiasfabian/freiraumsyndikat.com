@@ -1,0 +1,41 @@
+Title: Musikalischer DO-Tank
+
+----
+
+Subtitle: music // dance // painting // dialogue
+
+----
+
+Meta-description: ein künstlerischer Improvisationsraum als do-tank zwischen Bühne und interaktivem Publikum
+
+----
+
+Text: Der Do-Tank des Freiraum Syndikats ist seit 2015 spezialisiert auf neue künstlerische, über Musik und Klang geleitete Erfahrungskonzepte: Künstler:innen aus verschiedenen künstlerischen Darstellungsform interpretieren ein ihnen zugetragenes Thema, einen Betrachtungsgegenstand. Im Bezug aufeinander und zueinander entsteht im Zusammenklang von Musik, Tanz, Malerei, Schauspiel und anderen Gewerken ein einzigartiger Bezugsraum.  Die Dynamik zwischen den Künstlern untereinander und zwischen Darstellenden und Publikum schafft einen sich ständig wechselnden Improvisationsraum, dessen Dynamik weit über die Vorstellung hinausreicht.
+
+----
+
+Showdates: false
+
+----
+
+Dateskeywords: 
+
+----
+
+Cast: 
+
+- 
+  role: Violoncello, künstlerische Leitung
+  name: Lukas Dreyer
+- 
+  role: Improvisationstanz
+  name: Marco Jodes
+- 
+  role: Malerei
+  name: Barbara Mahler
+- 
+  role: Moderation
+  name: N.N.
+- 
+  role: Referent:in
+  name: N.N.

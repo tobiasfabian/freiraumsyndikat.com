@@ -1,0 +1,46 @@
+Title: Creation und Offen­barung
+
+----
+
+Subtitle: Tonraum in Musik, Sprache und Bewegung
+
+----
+
+Meta-description: Das internationale Ensemble Freiraum Syndikat findet im musikalischen Kontext gemeinsam mit Schauspielern und Tänzern seine Klangkonzepte über die Genregrenzen hinaus. Dabei wird der besondere Bezug auf den Aufführungsort als Raum gesucht und somit Anlass zum authentischen Erlebnis für das Publikum.
+
+----
+
+Text: 
+
+Die großen gesellschaftlichen Veränderungen und Fragen unserer Zeit sind in diesem Kontext immanent. Die schöpferische Kraft, Entwicklung oder gar Bedrohung bis hin zu Zerstörung durch den Menschen ist möglich. Ein besonderes Erlebnis mit Klängen, Texten und szenischen Elementen sucht das Unfassbare im Spiegel von Vergangenem und Neuem mit den Sinnen fühlbar zu machen.
+
+In sieben Teilen werden musikalische, sprachliche und szenisch insprierte Lebensthemen gegenüber gestellt und dabei verbindende Elemente zwischen Klang und Raum geschaffen. Die stilistische Offenheit der musikalischen Besetzung ermöglicht farbige Register von intimster Kammermusik bis zum orchesteralen Klang. Das Ensemble präsentiert seine Musikideen in eigens dafür geschaffenen Arrangements vom Barock, klassischen Tänzen, Ballettmusik, Filmmusik, Kinderstücken bis hin zu moderner Rock- und Popmusik . Verschiedene Textgattungen zwischen biblischen Themen, Lyrik, theatralischen Monologen bis hin zu wissenschaftlichen Abhandlungen oder Geschichten über Kinderträume spannen ihren sprachlichen und thematischen weiten Bogen dazu. Eine improvisierte Tanzperformance verbindet diese beiden Kunstwelten in eindrücklichen Gesten mit dem Raum und den Menschen darin. 
+Der Spielraum, den die Künstler und ihr Publikum hier betreten und gemeinsam entdecken, bietet der Phantasie keine Grenzen.
+
+----
+
+Showdates: true
+
+----
+
+Dateskeywords: Tag des offenen Denkmals Thüringen Bad langensalza 8.9.2019
+
+----
+
+Cast: 
+
+- 
+  role: Violoncello, Künstlerische Leitung
+  name: Lukas Dreyer
+- 
+  role: Gitarre, Mandoline, E-Gitarre
+  name: Flavio Virzí
+- 
+  role: Harfe
+  name: Neam Tarek
+- 
+  role: Sprecherin
+  name: Sabine Schramm
+- 
+  role: Improvisationstanz
+  name: Marco Jodes
